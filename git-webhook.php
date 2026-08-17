@@ -36,7 +36,8 @@ $root = __DIR__;
 chdir($root);
 
 $git = is_executable('/usr/bin/git') ? '/usr/bin/git' : 'git';
-$cmd = escapeshellcmd($git) . ' pull --ff-only origin main 2>&1';
+$git = escapeshellcmd($git);
+$cmd = $git . ' fetch origin main 2>&1 && ' . $git . ' reset --hard origin/main 2>&1';
 $output = [];
 $code = 1;
 exec($cmd, $output, $code);
