@@ -8,7 +8,14 @@ if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') {
   exit;
 }
 
-$secret = 'fc08afd56a929567831995209da4f065ae77a19e600fa9f9';
+$secretFile = __DIR__ . '/.webhook-secret';
+$secret = is_readable($secretFile) ? trim((string) file_get_contents($secretFile)) : '';
+if ($secret === '') {
+  http_response_code(500);
+  echo 'Webhook is not configured';
+  exit;
+}
+
 $payload = file_get_contents('php://input') ?: '';
 $signature = $_SERVER['HTTP_X_HUB_SIGNATURE_256'] ?? '';
 $expected = 'sha256=' . hash_hmac('sha256', $payload, $secret);
@@ -30,10 +37,9 @@ if ($event !== 'push') {
   exit;
 }
 
-putenv('HOME=/home/digivwht');
+putenv('HOME=' . __DIR__);
 putenv('GIT_TERMINAL_PROMPT=0');
-$root = __DIR__;
-chdir($root);
+chdir(__DIR__);
 
 $git = is_executable('/usr/bin/git') ? '/usr/bin/git' : 'git';
 $git = escapeshellcmd($git);
@@ -44,7 +50,8 @@ exec($cmd, $output, $code);
 
 if ($code !== 0) {
   http_response_code(500);
+  echo 'FAILED';
+  exit;
 }
 
-echo implode("\n", $output);
-echo $code === 0 ? "\nOK" : "\nFAILED";
+echo 'OK';
