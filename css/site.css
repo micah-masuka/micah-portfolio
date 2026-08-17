@@ -321,44 +321,141 @@ html.theme-dark .theme-toggle .icon-moon { display: none; }
   font-size: 0.9375rem;
 }
 
-.mascot-intro {
+.mica-companion {
+  position: fixed;
+  z-index: 20;
+  right: max(0.75rem, env(safe-area-inset-right));
+  bottom: max(0.5rem, env(safe-area-inset-bottom));
   display: grid;
-  grid-template-columns: minmax(6.5rem, 9rem) minmax(0, 1fr);
-  align-items: center;
-  gap: var(--space-4);
-  margin-block: 0 var(--space-5);
-  padding-block: var(--space-4);
-  border-block: 1px solid var(--line);
+  justify-items: end;
+  width: 12rem;
+  pointer-events: none;
+  filter: drop-shadow(0 0.6rem 0.6rem rgb(31 23 43 / 18%));
 }
 
-.mascot-intro img {
-  inline-size: 100%;
-  aspect-ratio: 1;
-  object-fit: contain;
+.mica-companion[hidden] { display: none; }
+
+.mica-stage,
+.mica-close,
+.mica-bubble {
+  pointer-events: auto;
 }
 
-.mascot-intro .kicker {
-  margin: 0 0 var(--space-2);
-  color: var(--muted);
-  font-family: var(--mono);
-  font-size: 0.875rem;
+.mica-stage {
+  width: 8.25rem;
+  height: 8.25rem;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
 }
 
-.mascot-intro h2 {
-  margin: 0 0 var(--space-2);
+.mica-stage:focus-visible,
+.mica-close:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
 }
 
-.mascot-intro p:not(.kicker) {
-  max-inline-size: 46rem;
-  margin: 0 0 var(--space-2);
-  color: var(--muted);
+.mica-sprite {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url('../assets/mica-sprites.png') 0 0 / 400% 200% no-repeat;
+  transform-origin: 50% 90%;
+  animation: mica-breathe 2.8s ease-in-out infinite;
+}
+
+.mica-sprite.is-blinking { background-position: 33.333% 0; }
+.mica-sprite.is-walking-one { background-position: 66.667% 0; }
+.mica-sprite.is-walking-two { background-position: 100% 0; }
+.mica-sprite.is-waving { background-position: 0 100%; animation: mica-wave 0.55s ease-in-out 2 alternate; }
+.mica-sprite.is-happy { background-position: 33.333% 100%; animation: mica-hop 0.45s ease-in-out 3 alternate; }
+.mica-sprite.is-sleeping { background-position: 66.667% 100%; animation: mica-sleep 3.6s ease-in-out infinite; }
+.mica-sprite.is-curious { background-position: 100% 100%; animation: mica-tilt 1s ease-in-out 2 alternate; }
+
+.mica-bubble {
+  position: relative;
+  max-width: 12rem;
+  margin: 0 0 -0.2rem;
+  padding: 0.75rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 0.8rem;
+  color: var(--ink);
+  background: var(--surface);
+  font-size: 0.78rem;
+  line-height: 1.35;
+  opacity: 0;
+  transform: translateY(0.35rem) scale(0.96);
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.mica-bubble::after {
+  position: absolute;
+  right: 2.25rem;
+  bottom: -0.4rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+  content: '';
+  transform: rotate(45deg);
+}
+
+.mica-bubble.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.mica-bubble p { margin: 0 0 0.35rem; }
+.mica-bubble a { font-weight: 600; }
+
+.mica-close {
+  position: absolute;
+  top: -0.55rem;
+  right: 0;
+  z-index: 2;
+  width: 1.65rem;
+  height: 1.65rem;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--ink);
+  background: var(--surface);
+  font: 700 1rem/1 var(--sans);
+  cursor: pointer;
+}
+
+@keyframes mica-breathe {
+  50% { transform: translateY(-0.14rem) scale(1.015); }
+}
+
+@keyframes mica-wave {
+  to { transform: rotate(-4deg) translateY(-0.15rem); }
+}
+
+@keyframes mica-hop {
+  to { transform: translateY(-0.55rem) rotate(2deg); }
+}
+
+@keyframes mica-sleep {
+  50% { transform: scale(0.97); opacity: 0.92; }
+}
+
+@keyframes mica-tilt {
+  to { transform: rotate(4deg); }
 }
 
 @media (max-width: 34rem) {
-  .mascot-intro {
-    grid-template-columns: 5.5rem minmax(0, 1fr);
-    align-items: start;
-  }
+  .mica-companion { width: 9.5rem; }
+  .mica-stage { width: 6.6rem; height: 6.6rem; }
+  .mica-bubble { max-width: 9.5rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mica-sprite { animation: none !important; }
+  .mica-bubble { transition: none; }
 }
 
 .badges {
