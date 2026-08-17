@@ -37,11 +37,25 @@ if ($event !== 'push') {
   exit;
 }
 
+$data = json_decode($payload, true);
+if (!is_array($data)) {
+  http_response_code(400);
+  echo 'Invalid JSON payload';
+  exit;
+}
+
+if (($data['ref'] ?? '') !== 'refs/heads/main') {
+  echo 'ignored branch';
+  exit;
+}
+
 putenv('HOME=' . __DIR__);
 putenv('GIT_TERMINAL_PROMPT=0');
 chdir(__DIR__);
 
-$git = is_executable('/usr/bin/git') ? '/usr/bin/git' : 'git';
+$git = is_executable('/usr/local/cpanel/3rdparty/bin/git')
+  ? '/usr/local/cpanel/3rdparty/bin/git'
+  : (is_executable('/usr/bin/git') ? '/usr/bin/git' : 'git');
 $git = escapeshellcmd($git);
 $cmd = $git . ' fetch origin main 2>&1 && ' . $git . ' reset --hard origin/main 2>&1';
 $output = [];
@@ -50,7 +64,8 @@ exec($cmd, $output, $code);
 
 if ($code !== 0) {
   http_response_code(500);
-  echo 'FAILED';
+  echo "FAILED\n";
+  echo implode("\n", $output);
   exit;
 }
 
