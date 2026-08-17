@@ -15,4 +15,5 @@ assets/portfolio/**/*.png
 cgi-bin/
 php/
 *.zip
+_site/
 .webhook-secret
