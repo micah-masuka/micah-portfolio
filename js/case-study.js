@@ -87,7 +87,7 @@
             <button type="submit" class="button primary">View case study</button>
             <p class="gate-error muted" id="case-gate-error" hidden>Incorrect password. Try again or contact Micah for access.</p>
           </form>
-          <p class="muted"><a class="text-link" href="/Micah-Portfolio/portfolio">← Back to portfolio</a></p>
+          <p class="muted"><a class="text-link" href="/micah-portfolio/portfolio">← Back to portfolio</a></p>
         </div>
       </section>`;
   }
@@ -375,12 +375,12 @@
   }
 
   const CASE_SEQUENCE = [
-    { slug: 'alfresco', href: '/Micah-Portfolio/case-studies/alfresco-bakery', label: 'Alfresco Bakery' },
-    { slug: 'verandah', href: '/Micah-Portfolio/case-studies/verandah-cafe', label: 'Verandah Café' },
-    { slug: 'logos', href: '/Micah-Portfolio/case-studies/logos-publicity', label: 'Logos Publicity' },
-    { slug: 'sanex', href: '/Micah-Portfolio/case-studies/sanex', label: 'Sanex' },
-    { slug: 'streamvault', href: '/Micah-Portfolio/case-studies/streamvault', label: 'Streamvault' },
-    { slug: 'espace', href: '/Micah-Portfolio/case-studies/espace-marine', label: 'Espace Marine' }
+    { slug: 'alfresco', href: '/micah-portfolio/case-studies/alfresco-bakery', label: 'Alfresco Bakery' },
+    { slug: 'verandah', href: '/micah-portfolio/case-studies/verandah-cafe', label: 'Verandah Café' },
+    { slug: 'logos', href: '/micah-portfolio/case-studies/logos-publicity', label: 'Logos Publicity' },
+    { slug: 'sanex', href: '/micah-portfolio/case-studies/sanex', label: 'Sanex' },
+    { slug: 'streamvault', href: '/micah-portfolio/case-studies/streamvault', label: 'Streamvault' },
+    { slug: 'espace', href: '/micah-portfolio/case-studies/espace-marine', label: 'Espace Marine' }
   ];
 
   function nextMarkup(study) {

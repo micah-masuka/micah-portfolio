@@ -15,7 +15,7 @@ window.MicahPortfolio.caseStudies = {
     lede: 'The agency did not like how the site was laid out or how the pages worked. I restructured it so clients can find a service, see the work, and get in touch.',
     tags: ['UX', 'Web Design', 'Development'],
     live: { href: 'https://logospublicity.com/', label: 'Visit the live website' },
-    next: { href: '/Micah-Portfolio/case-studies/sanex', label: 'Sanex' },
+    next: { href: '/micah-portfolio/case-studies/sanex', label: 'Sanex' },
     background: [
       'Logos Publicity is a long-established advertising and communication agency. The website exists so clients can understand the agency and find the services it offers.',
       'The old site was a one-page template with a full-screen video that loaded as soon as the homepage opened. Services and work lived in two separate folders, so a service page did not lead into that service’s work.',
@@ -165,7 +165,7 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/logos-publicity/competitor-analysis.webp',
+            src: '/micah-portfolio/assets/portfolio/logos-publicity/competitor-analysis.webp',
             alt: 'Competitor analysis board comparing agency websites in Mauritius and global references',
             wide: true,
             caption: 'Competitor review: how local and global agencies display services, work, and contact.'
@@ -181,27 +181,27 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/logos-publicity/old-design-service-page.webp',
+            src: '/micah-portfolio/assets/portfolio/logos-publicity/old-design-service-page.webp',
             alt: 'Old Logos Publicity design page: a grid of other services rather than a design hub',
             caption: 'Old design page: other services in a grid, not a path into design work.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/logos-publicity/new-branding-service-hub.webp',
+            src: '/micah-portfolio/assets/portfolio/logos-publicity/new-branding-service-hub.webp',
             alt: 'New Logos Publicity branding service hub with links into packaging, publications, and related work',
             caption: 'New branding hub: introduces the service and links into that work.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/logos-publicity/old-advertising-service-page.webp',
+            src: '/micah-portfolio/assets/portfolio/logos-publicity/old-advertising-service-page.webp',
             alt: 'Old Logos Publicity advertising page with a quote and filters to other services',
             caption: 'Old advertising: quote and filters to other services; no path into campaigns.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/logos-publicity/new-marketing-service-hub.webp',
+            src: '/micah-portfolio/assets/portfolio/logos-publicity/new-marketing-service-hub.webp',
             alt: 'New Logos Publicity marketing and communication strategy service hub',
             caption: 'New marketing & comm strategy: hub copy with a path into that work.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/logos-publicity/branding-publications-work-page.webp',
+            src: '/micah-portfolio/assets/portfolio/logos-publicity/branding-publications-work-page.webp',
             alt: 'Logos Publicity publications work page nested under the branding service',
             wide: true,
             caption: 'Work now lives under the service it belongs to: here, publications under Branding.'
@@ -217,24 +217,24 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/logos-publicity/old-mobile-nav-two-tap.webp',
+            src: '/micah-portfolio/assets/portfolio/logos-publicity/old-mobile-nav-two-tap.webp',
             alt: 'Old Logos Publicity mobile homepage: first tap opens an overlay with a second hamburger and no links; second tap shows the links',
             wide: true,
             caption: 'Old mobile menu: tap 1: overlay and inner hamburger, no links yet. Tap 2: the link list appears.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/logos-publicity/new-mobile-nav-drawer.webp',
+            src: '/micah-portfolio/assets/portfolio/logos-publicity/new-mobile-nav-drawer.webp',
             alt: 'New Logos Publicity mobile homepage: one tap opens a menu drawer with links visible, and Services expands as a dropdown',
             wide: true,
             caption: 'New mobile menu: one tap opens the drawer with links already there. Services expands in the list.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/logos-publicity/old-desktop-nav.webp',
+            src: '/micah-portfolio/assets/portfolio/logos-publicity/old-desktop-nav.webp',
             alt: 'Old Logos Publicity desktop homepage with navigation hidden behind a hamburger',
             caption: 'Old desktop: main links sat behind a hamburger, not in an open menu.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/logos-publicity/new-desktop-nav.webp',
+            src: '/micah-portfolio/assets/portfolio/logos-publicity/new-desktop-nav.webp',
             alt: 'New Logos Publicity desktop homepage with Home, About, Services, and Contact visible in the header',
             caption: 'New desktop: Home, About, Services, and Contact are visible. Services opens a dropdown.'
           }
@@ -248,12 +248,12 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/logos-publicity/old-footer.webp',
+            src: '/micah-portfolio/assets/portfolio/logos-publicity/old-footer.webp',
             alt: 'Old Logos Publicity footer: logo and social links only, no contact details or navigation',
             caption: 'Old footer: logo and social icons. No emails, phones, address, or site links.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/logos-publicity/new-footer.webp',
+            src: '/micah-portfolio/assets/portfolio/logos-publicity/new-footer.webp',
             alt: 'New Logos Publicity footer with Contact us button, quick links, contact details, legal links, and ACA logo',
             caption: 'New footer: Contact us, quick links, contact details, Privacy Policy, Terms, and ACA logo on every page.'
           }
@@ -267,7 +267,7 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/logos-publicity/faq-sections-homepage-mobile-desktop.webp',
+            src: '/micah-portfolio/assets/portfolio/logos-publicity/faq-sections-homepage-mobile-desktop.webp',
             alt: 'Logos Publicity homepage FAQ accordion on mobile and desktop',
             wide: true,
             caption: 'Homepage FAQ: agency-level questions on mobile and desktop. Service hubs carry their own FAQs.'
@@ -299,7 +299,7 @@ window.MicahPortfolio.caseStudies = {
     lede: 'Designed and developed a responsive website from scratch after the bakery started getting found online. Menu and gallery are the pages people use most (1,800+ monthly product page views and 500+ monthly gallery interactions). Enquiries increased after launch.',
     tags: ['UX', 'Web Development'],
     live: { href: 'https://alfrescothebakery.com/', label: 'Visit the live website' },
-    next: { href: '/Micah-Portfolio/case-studies/verandah-cafe', label: 'Verandah Café' },
+    next: { href: '/micah-portfolio/case-studies/verandah-cafe', label: 'Verandah Café' },
     background: [
       'Alfresco The Bakery was gaining a lot of traction online and going viral. People were searching for the bakery, but it did not have a website of its own.',
       'Social posts were not a reliable place to land. There was no permanent site for the menu, the look of the bakery, or how to get in touch.'
@@ -415,13 +415,13 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/alfresco-the-bakery/homepage-hero.webp',
+            src: '/micah-portfolio/assets/portfolio/alfresco-the-bakery/homepage-hero.webp',
             alt: 'Alfresco The Bakery homepage hero with transparent header, photography, and View Menu and Find Us CTAs',
             wide: true,
             caption: 'Homepage hero: transparent header, primary CTAs, and editorial photography.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/alfresco-the-bakery/homepage-phone-mockup.webp',
+            src: '/micah-portfolio/assets/portfolio/alfresco-the-bakery/homepage-phone-mockup.webp',
             alt: 'Alfresco The Bakery homepage on a phone',
             caption: 'Homepage on mobile: the first impression when someone searches and lands.'
           }
@@ -435,13 +435,13 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/alfresco-the-bakery/homepage-locations-desktop.webp',
+            src: '/micah-portfolio/assets/portfolio/alfresco-the-bakery/homepage-locations-desktop.webp',
             alt: 'Alfresco branch cards on the homepage with Open Now and Closed badges, hours, WhatsApp, and Directions',
             wide: true,
             caption: 'Branch cards: live open/closed status, hours accordion, WhatsApp and directions per branch.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/alfresco-the-bakery/homepage-locations-mobile-mockup.webp',
+            src: '/micah-portfolio/assets/portfolio/alfresco-the-bakery/homepage-locations-mobile-mockup.webp',
             alt: 'Alfresco Our Branches section on a phone with Harare branch hours expanded',
             caption: 'Mobile: branch hours accordion expanded, WhatsApp and directions at thumb reach.'
           }
@@ -455,13 +455,13 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/alfresco-the-bakery/menu-page-desktop.webp',
+            src: '/micah-portfolio/assets/portfolio/alfresco-the-bakery/menu-page-desktop.webp',
             alt: 'Alfresco menu page with sticky category filter bar and espresso items',
             wide: true,
             caption: 'Desktop menu: sticky category bar, eight filters, USD pricing.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/alfresco-the-bakery/menu-page-mobile-mockup.webp',
+            src: '/micah-portfolio/assets/portfolio/alfresco-the-bakery/menu-page-mobile-mockup.webp',
             alt: 'Alfresco menu on a phone with category dropdown selector',
             caption: 'Mobile menu: category dropdown instead of horizontal filter pills.'
           }
@@ -475,13 +475,13 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/alfresco-the-bakery/contact-page-desktop.webp',
+            src: '/micah-portfolio/assets/portfolio/alfresco-the-bakery/contact-page-desktop.webp',
             alt: 'Alfresco contact page with reach-us links, contact form, and branch visit cards',
             wide: true,
             caption: 'Contact page: quick links, AJAX form, and branch cards with live status.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/alfresco-the-bakery/contact-page-mobile-mockup.webp',
+            src: '/micah-portfolio/assets/portfolio/alfresco-the-bakery/contact-page-mobile-mockup.webp',
             alt: 'Alfresco contact page on a phone',
             caption: 'Mobile contact: AJAX form confirmation and branch quick links.'
           }
@@ -516,7 +516,7 @@ window.MicahPortfolio.caseStudies = {
     gateMessage: 'This project is still in progress. Recruiters: use the password from my application or email me for access.',
     lede: 'A bilingual, touch-first retail kiosk that turns Sanex skin facts into a five-question challenge and recommends a product based on what the shopper learned they did not know.',
     tags: ['UX', 'Interaction Design', 'Frontend'],
-    next: { href: '/Micah-Portfolio/case-studies/espace-marine', label: 'Espace Marine' },
+    next: { href: '/micah-portfolio/case-studies/espace-marine', label: 'Espace Marine' },
     background: [
       'This work was completed at Logos Publicity for BrandActiv, Sanex’s distributor in Mauritius. The brief was to turn a passive retail screen into a short, self-guided education moment that ends in a relevant product recommendation.',
       'The experience was built for a 43-inch landscape touchscreen kiosk (1920×1080), a laptop hidden behind the unit running the display in Chrome kiosk mode. I had not designed for this format before, so I started by researching kiosk UI patterns and reviewing the hardware dimensions and stand the client supplied.'
@@ -547,18 +547,18 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/sanex/kiosk-research-collage.webp',
+            src: '/micah-portfolio/assets/portfolio/sanex/kiosk-research-collage.webp',
             alt: 'Behance and Dribbble research collage for kiosk UI and interactive display proportions',
             wide: true,
             caption: 'Kiosk UI research: touch targets, landscape layout, and display proportions.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/sanex/display-dimensions-client.webp',
+            src: '/micah-portfolio/assets/portfolio/sanex/display-dimensions-client.webp',
             alt: 'Client-supplied technical drawing of the 43-inch kiosk display dimensions',
             caption: '43-inch kiosk display: client-supplied dimensions.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/sanex/display-base-drawing-client.webp',
+            src: '/micah-portfolio/assets/portfolio/sanex/display-base-drawing-client.webp',
             alt: 'Client-supplied technical drawing of the floor-standing kiosk base',
             caption: 'Floor-standing base: tilt angles and mounting specs from the client.'
           }
@@ -571,17 +571,17 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/sanex/main-page-wireframe-sketch.webp',
+            src: '/micah-portfolio/assets/portfolio/sanex/main-page-wireframe-sketch.webp',
             alt: 'Hand-drawn wireframe sketch of the Sanex welcome screen layout',
             caption: 'Early wireframe: logo, copy, start button, and product area.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/sanex/welcome-screen-design.webp',
+            src: '/micah-portfolio/assets/portfolio/sanex/welcome-screen-design.webp',
             alt: 'Final welcome screen design for the Sanex Skin Knowledge Challenge front page',
             caption: 'Final welcome screen design: front page before development.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/sanex/welcome-screen-french.webp',
+            src: '/micah-portfolio/assets/portfolio/sanex/welcome-screen-french.webp',
             alt: 'Built Sanex welcome screen in French with EN language toggle and product carousel',
             wide: true,
             caption: 'Built welcome screen: French on first load, EN toggle top-right.'
@@ -595,7 +595,7 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/sanex/question-set-client-email.webp',
+            src: '/micah-portfolio/assets/portfolio/sanex/question-set-client-email.webp',
             alt: 'Email from client with the five Sanex skin knowledge quiz questions in French',
             wide: true,
             caption: 'Client-supplied question set: the content basis for the challenge.'
@@ -619,7 +619,7 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/sanex/inactivity-overlay-english.webp',
+            src: '/micah-portfolio/assets/portfolio/sanex/inactivity-overlay-english.webp',
             alt: 'Sanex kiosk inactivity overlay, Session paused, Are you still there?',
             caption: 'Pause overlay at 50s idle: Continuer dismisses it; 65s total resets to welcome.'
           }
@@ -631,8 +631,8 @@ window.MicahPortfolio.caseStudies = {
           'Five mixed-format questions (four two-choice, one true/false) with instant feedback after each answer, correct highlighted green, wrong in red, explanation shown, then the user taps to continue. A progress bar and live score run throughout. After question five, the results screen shows the score, three skin-care takeaways, and one recommended Sanex product based on the first question they got wrong. If they score 5/5, they still see a product with an “excellent score” message.'
         ],
         video: {
-          src: '/Micah-Portfolio/assets/portfolio/sanex/video/sanex-questionnaire-flow.mp4',
-          poster: '/Micah-Portfolio/assets/portfolio/sanex/welcome-screen-french.webp',
+          src: '/micah-portfolio/assets/portfolio/sanex/video/sanex-questionnaire-flow.mp4',
+          poster: '/micah-portfolio/assets/portfolio/sanex/welcome-screen-french.webp',
           caption: 'Screen recording: welcome, questions, feedback, and results.',
           alt: 'Sanex Skin Facts Challenge questionnaire flow from start to finish'
         }
@@ -644,12 +644,12 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/sanex/feedback-correct-answer.webp',
+            src: '/micah-portfolio/assets/portfolio/sanex/feedback-correct-answer.webp',
             alt: 'Sanex quiz correct-answer feedback screen with explanation and next button',
             caption: 'Instant feedback: correct answer, explanation, tap to continue.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/sanex/results-screen.webp',
+            src: '/micah-portfolio/assets/portfolio/sanex/results-screen.webp',
             alt: 'Sanex quiz results screen with score, takeaways, and product recommendation',
             wide: true,
             caption: 'Results: score, skin-care takeaways, and one recommended product.'
@@ -689,7 +689,7 @@ window.MicahPortfolio.caseStudies = {
     eyebrow: 'Espace Marine · UX research',
     lede: 'Wrote and sent a structured website survey during my Logos Publicity internship to inform a planned client website redesign. Findings stay internal; the question set shows the research direction.',
     tags: ['UX Research', 'Website Strategy'],
-    next: { href: '/Micah-Portfolio/case-studies/alfresco-bakery', label: 'Alfresco Bakery' },
+    next: { href: '/micah-portfolio/case-studies/alfresco-bakery', label: 'Alfresco Bakery' },
     background: [
       'During my internship at Logos Publicity, Espace Marine was one of three UX projects I contributed to alongside the agency website restructure and the Sanex interactive display.',
       'The client was planning a website redesign. Before visual design started, the team needed a structured way to understand who visits the site today, what they struggle with, and what a better experience should help them do.',
@@ -817,7 +817,7 @@ window.MicahPortfolio.caseStudies = {
     lede: 'A second live hospitality site, with a different IA than Alfresco: a dedicated Visit page, café vs kitchen hours, and an online menu staff can update without uploading a new PDF.',
     tags: ['UX', 'Web Development'],
     live: { href: 'https://verandahcafe.com/', label: 'Visit the live website' },
-    next: { href: '/Micah-Portfolio/case-studies/logos-publicity', label: 'Logos Publicity' },
+    next: { href: '/micah-portfolio/case-studies/logos-publicity', label: 'Logos Publicity' },
     background: [
       'Verandah Café needed a website of its own. People looking for the café needed a permanent place for the menu, where to go, and how to get in touch.',
       'This is a related live client to Alfresco, not a copy of the same case. The café needed a Visit hub, split hours, and an online menu staff can update without uploading a new PDF.'
@@ -954,24 +954,24 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/verandah-cafe/homepage-tablet-mockup.webp',
+            src: '/micah-portfolio/assets/portfolio/verandah-cafe/homepage-tablet-mockup.webp',
             alt: 'Verandah Café homepage on a tablet mockup with hero, hours teaser, and capsule navigation',
             wide: true,
             caption: 'Homepage: hero, today’s hours, and capsule nav on tablet.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/verandah-cafe/homepage-hero-desktop.webp',
+            src: '/micah-portfolio/assets/portfolio/verandah-cafe/homepage-hero-desktop.webp',
             alt: 'Verandah Café homepage hero with interior photography, View Menu and Get Directions CTAs',
             wide: true,
             caption: 'Homepage layout: hero, hours block, and signature dishes section.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/verandah-cafe/header-nav-desktop.webp',
+            src: '/micah-portfolio/assets/portfolio/verandah-cafe/header-nav-desktop.webp',
             alt: 'Verandah Café capsule navigation with Plan your visit CTA and social icons',
             caption: 'Capsule nav: full IA, persistent visit CTA, and discovery shortcuts.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/verandah-cafe/homepage-hours-mobile-mockup.webp',
+            src: '/micah-portfolio/assets/portfolio/verandah-cafe/homepage-hours-mobile-mockup.webp',
             alt: 'Verandah Café homepage Today\'s Hours section on a phone with Open Now badge',
             caption: 'Homepage hours teaser: live open badge drives people to the Visit page.'
           }
@@ -985,13 +985,13 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/verandah-cafe/menu-page-desktop.webp',
+            src: '/micah-portfolio/assets/portfolio/verandah-cafe/menu-page-desktop.webp',
             alt: 'Verandah Café menu page with sticky category pills and Sweet Waffles option chips',
             wide: true,
             caption: 'Menu page: sticky pills, add-on chips, and crepe pricing variants.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/verandah-cafe/menu-print-preview.webp',
+            src: '/micah-portfolio/assets/portfolio/verandah-cafe/menu-print-preview.webp',
             alt: 'Verandah Café menu print preview showing Brekky section formatted for print or PDF',
             caption: 'Print stylesheet: staff update one file; guests browse or print without a PDF workflow.'
           }
@@ -1005,7 +1005,7 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/verandah-cafe/visit-page-desktop.webp',
+            src: '/micah-portfolio/assets/portfolio/verandah-cafe/visit-page-desktop.webp',
             alt: 'Verandah Café Visit page with hours table, map embed, and Before You Arrive section',
             wide: true,
             caption: 'Visit page: hours table, map, directions, and arrival info.'
@@ -1020,13 +1020,13 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/verandah-cafe/gallery-page-desktop.webp',
+            src: '/micah-portfolio/assets/portfolio/verandah-cafe/gallery-page-desktop.webp',
             alt: 'Verandah Café Gallery page with food and interior photography in a grid layout',
             wide: true,
             caption: 'Gallery: food, spaces, and moments across a responsive grid.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/verandah-cafe/about-page-desktop.webp',
+            src: '/micah-portfolio/assets/portfolio/verandah-cafe/about-page-desktop.webp',
             alt: 'Verandah Café About page with Our Story hero and interior photography',
             caption: 'About page: brand story and café atmosphere.'
           }
@@ -1040,13 +1040,13 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/verandah-cafe/contact-page-laptop-mockup.webp',
+            src: '/micah-portfolio/assets/portfolio/verandah-cafe/contact-page-laptop-mockup.webp',
             alt: 'Verandah Café Contact page on a laptop mockup with enquiry form and contact details',
             wide: true,
             caption: 'Contact page: structured enquiry form and café details.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/verandah-cafe/mobile-nav-drawer.webp',
+            src: '/micah-portfolio/assets/portfolio/verandah-cafe/mobile-nav-drawer.webp',
             alt: 'Verandah Café mobile navigation drawer with Call and WhatsApp actions',
             caption: 'Mobile drawer: full IA plus Call and WhatsApp at thumb reach.'
           }
@@ -1077,7 +1077,7 @@ window.MicahPortfolio.caseStudies = {
     eyebrow: 'Streamvault · Course project',
     lede: 'Course project at Lesley University. A desktop streaming concept with clearer navigation, honest subscription plans, and in-product help. Personas came from classmate research and secondary sources, not a live product.',
     tags: ['UX', 'UI Design', 'Product Design'],
-    next: { href: '/Micah-Portfolio/case-studies/espace-marine', label: 'Espace Marine' },
+    next: { href: '/micah-portfolio/case-studies/espace-marine', label: 'Espace Marine' },
     background: [
       'Streamvault is a premium streaming platform concept for desktop, a place to watch movies and shows that feels immersive without getting in the way.',
       'Most streaming apps share the same frustrations: navigation that hides content, plans that are hard to compare, recommendations that miss the mark, and support that sends you elsewhere when something breaks.',
@@ -1141,7 +1141,7 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/streamvault/competitor-analysis.webp',
+            src: '/micah-portfolio/assets/portfolio/streamvault/competitor-analysis.webp',
             alt: 'Competitor analysis comparing Netflix, Amazon Prime, and Showmax design systems',
             wide: true,
             caption: 'Netflix, Prime, and Showmax: layout, typography, buttons, and plan patterns.'
@@ -1156,12 +1156,12 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/streamvault/persona-johnstone-jones.webp',
+            src: '/micah-portfolio/assets/portfolio/streamvault/persona-johnstone-jones.webp',
             alt: 'Johnstone Jones persona, male, 30+, tech-savvy business user',
             caption: 'Johnstone Jones: clarity on content and subscription value.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/streamvault/persona-sarah-miko.webp',
+            src: '/micah-portfolio/assets/portfolio/streamvault/persona-sarah-miko.webp',
             alt: 'Sarah Miko persona, female university student who streams in her free time',
             caption: 'Sarah Miko: affordable quality, better recommendations, faster help.'
           }
@@ -1175,12 +1175,12 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/streamvault/colors-typography.webp',
+            src: '/micah-portfolio/assets/portfolio/streamvault/colors-typography.webp',
             alt: 'Streamvault brand colours and typography system',
             caption: 'Colour palette and type scale.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/streamvault/ui-library-final.webp',
+            src: '/micah-portfolio/assets/portfolio/streamvault/ui-library-final.webp',
             alt: 'Streamvault UI library with buttons, inputs, cards, and navigation components',
             wide: true,
             caption: 'UI library: components used across all screens.'
@@ -1194,7 +1194,7 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/streamvault/lofi-designs.webp',
+            src: '/micah-portfolio/assets/portfolio/streamvault/lofi-designs.webp',
             alt: 'Streamvault lo-fi wireframes for home, browse, plans, and playback flows',
             wide: true,
             caption: 'Lo-fi flows: structure before visual design.'
@@ -1209,23 +1209,23 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/streamvault/streamvault-mockup-main.webp',
+            src: '/micah-portfolio/assets/portfolio/streamvault/streamvault-mockup-main.webp',
             alt: 'Streamvault homepage on a desktop monitor with hero feature, content carousel, and chatbot',
             wide: true,
             caption: 'Home screen: hero feature, latest releases, and in-platform chatbot.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/streamvault/homepage-final.webp',
+            src: '/micah-portfolio/assets/portfolio/streamvault/homepage-final.webp',
             alt: 'Streamvault final homepage design with Captain America hero and content rows',
             caption: 'Final homepage: featured title and browse carousel.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/streamvault/browse-page.webp',
+            src: '/micah-portfolio/assets/portfolio/streamvault/browse-page.webp',
             alt: 'Streamvault browse page with category filters and content grid',
             caption: 'Browse: category filters and poster grid.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/streamvault/watchlist-page.webp',
+            src: '/micah-portfolio/assets/portfolio/streamvault/watchlist-page.webp',
             alt: 'Streamvault watchlist page with saved titles',
             caption: 'Watchlist: saved titles in one place.'
           }
@@ -1239,23 +1239,23 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '/Micah-Portfolio/assets/portfolio/streamvault/streaming-page.webp',
+            src: '/micah-portfolio/assets/portfolio/streamvault/streaming-page.webp',
             alt: 'Streamvault streaming page with video player and playback controls',
             caption: 'Streaming: playback controls and subtitle access.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/streamvault/movie-info-page.webp',
+            src: '/micah-portfolio/assets/portfolio/streamvault/movie-info-page.webp',
             alt: 'Streamvault movie information page with cast and related titles',
             caption: 'Title detail: cast, synopsis, and related content.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/streamvault/plans-chatbot.webp',
+            src: '/micah-portfolio/assets/portfolio/streamvault/plans-chatbot.webp',
             alt: 'Streamvault subscription plans with chatbot support panel',
             wide: true,
             caption: 'Plans: transparent tiers with in-platform chatbot support.'
           },
           {
-            src: '/Micah-Portfolio/assets/portfolio/streamvault/final-screens.webp',
+            src: '/micah-portfolio/assets/portfolio/streamvault/final-screens.webp',
             alt: 'Streamvault final screen overview showing home, browse, plans, streaming, and settings flows',
             wide: true,
             caption: 'Final screens: full desktop flow from home to subscription and playback.'
@@ -1280,7 +1280,7 @@ window.MicahPortfolio.caseStudies = {
       'Users and personas were based on classmate interviews, a survey, and secondary research. This was not a live product, and I treat it as coursework next to shipped client work.'
     ],
     pdf: {
-      href: '/Micah-Portfolio/assets/portfolio/streamvault/streamvault-case-study.pdf',
+      href: '/micah-portfolio/assets/portfolio/streamvault/streamvault-case-study.pdf',
       label: 'View full Streamvault case study (PDF)'
     }
   }
