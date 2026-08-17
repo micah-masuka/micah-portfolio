@@ -11,3 +11,7 @@ package.json
 package-lock.json
 tailwind.config.js
 assets/portfolio/**/*.png
+.well-known/
+cgi-bin/
+php/
+*.zip
