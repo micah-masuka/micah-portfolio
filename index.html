@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <script>
+    {
+      localStorage.removeItem('color-scheme');
+      const theme = localStorage.getItem('micah-theme') === 'dark' ? 'dark' : 'light';
+      document.querySelector('meta[name="color-scheme"]').content = theme;
+      document.documentElement.classList.toggle('theme-dark', theme === 'dark');
+      document.documentElement.style.removeProperty('color-scheme');
+    }
+  </script>
+  <title>Portfolio by Micah Masuka</title>
+  <meta name="description" content="Micah Masuka is a UX Designer. He focuses on clear paths, real user behaviour, and sites people can actually use.">
+  <meta property="og:title" content="Portfolio by Micah Masuka">
+  <meta property="og:description" content="Micah Masuka is a UX Designer. He focuses on clear paths, real user behaviour, and sites people can actually use.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <meta name="author" content="Micah Masuka">
+  <meta property="og:url" content="https://micah.digitale-tech.com/">
+  <meta property="og:site_name" content="Portfolio by Micah Masuka">
+  <meta property="og:image" content="https://micah.digitale-tech.com/assets/micah-masuka.webp">
+  <meta property="og:image:alt" content="Portrait of Micah Masuka">
+  <meta property="og:locale" content="en">
+  <link rel="canonical" href="https://micah.digitale-tech.com/">
+  <link rel="icon" href="/Micah-Portfolio/assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/Micah-Portfolio/assets/favicon.ico" sizes="32x32">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "name": "Portfolio by Micah Masuka",
+          "url": "https://micah.digitale-tech.com/",
+          "description": "Micah Masuka is a UX Designer. He focuses on clear paths, real user behaviour, and sites people can actually use.",
+          "inLanguage": "en",
+          "author": { "@id": "https://micah.digitale-tech.com/#micah" }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://micah.digitale-tech.com/#micah",
+          "name": "Micah Masuka",
+          "jobTitle": "UX Designer",
+          "url": "https://micah.digitale-tech.com/",
+          "sameAs": ["https://www.linkedin.com/in/masukamicah/"],
+          "alumniOf": { "@type": "CollegeOrUniversity", "name": "Lesley University" }
+        }
+      ]
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Fira+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/Micah-Portfolio/css/site.css">
+</head>
+<body class="is-home">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="/Micah-Portfolio/">
+        <span>Micah Masuka</span>
+      </a>
+      <div class="header-actions">
+        <nav id="site-nav" aria-label="Primary">
+          <a href="/Micah-Portfolio/portfolio">Portfolio</a>
+          <a href="/Micah-Portfolio/resume">Resume</a>
+        </nav>
+        <button type="button" class="theme-toggle" aria-pressed="false" aria-label="Switch to dark mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" id="top">
+        <img class="portrait-hero" src="/Micah-Portfolio/assets/micah-masuka.webp" alt="Portrait of Micah Masuka" width="800" height="800" fetchpriority="high">
+        <div class="hero-copy">
+          <p class="kicker">Hi, I’m Micah.</p>
+          <h1>UX Designer</h1>
+          <p class="lede">I focus on clear paths, real user behaviour, and sites people can actually use.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="/Micah-Portfolio/portfolio">Portfolio</a>
+          </div>
+        </div>
+    </section>
+    <section class="home-work" aria-labelledby="work-heading">
+      <div class="wrap">
+        <header class="page-head">
+          <h2 id="work-heading">Featured work</h2>
+          <p>A sample of recent projects. <a class="text-link" href="/Micah-Portfolio/portfolio">View full portfolio →</a></p>
+        </header>
+
+        <section class="portfolio-group" aria-labelledby="home-internship-heading">
+          <header class="portfolio-group-head">
+            <h3 id="home-internship-heading">Internship · Logos Publicity</h3>
+          </header>
+          <ul class="project-grid">
+            <li>
+              <a class="project-card" href="/Micah-Portfolio/case-studies/logos-publicity">
+                <div class="project-media is-mockup">
+                  <img src="/Micah-Portfolio/assets/portfolio/logos-publicity/homepage-phone-mockup.webp" alt="Logos Publicity homepage on a phone" width="1200" height="900">
+                </div>
+                <h3>Logos Publicity</h3>
+                <p>Agency website · UX · IA</p>
+              </a>
+            </li>
+            <li>
+              <a class="project-card is-confidential" href="/Micah-Portfolio/case-studies/sanex">
+                <div class="project-media is-confidential">
+                  <img src="/Micah-Portfolio/assets/portfolio/sanex/welcome-screen-mockup-blurred.webp" alt="" width="1400" height="1050" aria-hidden="true">
+                  <span class="project-badge">Password protected</span>
+                </div>
+                <h3>Sanex</h3>
+                <p>Interactive display · UX · In progress</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="portfolio-group" aria-labelledby="home-client-heading">
+          <header class="portfolio-group-head">
+            <h3 id="home-client-heading">Client work &amp; projects</h3>
+          </header>
+          <ul class="project-grid">
+            <li>
+              <a class="project-card" href="/Micah-Portfolio/case-studies/alfresco-bakery">
+                <div class="project-media is-mockup">
+                  <img src="/Micah-Portfolio/assets/portfolio/alfresco-the-bakery/homepage-phone-mockup.webp" alt="Alfresco The Bakery homepage on a phone" width="1200" height="900">
+                </div>
+                <h3>Alfresco Bakery</h3>
+                <p>Live client website · UX</p>
+              </a>
+            </li>
+            <li>
+              <a class="project-card" href="/Micah-Portfolio/case-studies/verandah-cafe">
+                <div class="project-media is-mockup">
+                  <img src="/Micah-Portfolio/assets/portfolio/verandah-cafe/contact-page-laptop-mockup.webp" alt="Verandah Café Contact page on a laptop mockup" width="2000" height="1500">
+                </div>
+                <h3>Verandah Café</h3>
+                <p>Live client website · Visit hub · UX</p>
+              </a>
+            </li>
+            <li>
+              <a class="project-card" href="/Micah-Portfolio/case-studies/streamvault">
+                <div class="project-media">
+                  <img src="/Micah-Portfolio/assets/portfolio/streamvault/streamvault-mockup-main.webp" alt="Streamvault streaming platform on a desktop monitor" width="1400" height="1050">
+                </div>
+                <h3>Streamvault</h3>
+                <p>Course project · UX/UI</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-links">
+        <a href="mailto:masukamicah@gmail.com">Email</a>
+        <ul class="badges">
+          <li>
+            <a href="https://www.linkedin.com/in/masukamicah/" target="_blank" rel="noreferrer">
+              <img src="https://img.shields.io/badge/LinkedIn-Micah_Masuka-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn: Micah Masuka" height="22" loading="lazy">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-meta">
+        <p>Built with HTML, CSS, and JavaScript · <a href="https://github.com/micah-masuka/micah-portfolio" target="_blank" rel="noreferrer">Source on GitHub</a></p>
+        <p>© <span id="year"></span> Micah Masuka</p>
+      </div>
+    </div>
+  </footer>
+  <script src="/Micah-Portfolio/js/main.js"></script>
+</body>
+</html>

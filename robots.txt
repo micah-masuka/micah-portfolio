@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /git-webhook.php
+
+Sitemap: https://micah.digitale-tech.com/sitemap.xml
