@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <script>
+    {
+      localStorage.removeItem('color-scheme');
+      const theme = localStorage.getItem('micah-theme') === 'dark' ? 'dark' : 'light';
+      document.querySelector('meta[name="color-scheme"]').content = theme;
+      document.documentElement.classList.toggle('theme-dark', theme === 'dark');
+      document.documentElement.style.removeProperty('color-scheme');
+    }
+  </script>
+  <title>Work, Portfolio by Micah Masuka</title>
+  <meta name="description" content="Selected UX design work by Micah Masuka.">
+  <meta property="og:title" content="Work, Portfolio by Micah Masuka">
+  <meta property="og:description" content="Selected UX design work by Micah Masuka.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <meta name="author" content="Micah Masuka">
+  <meta property="og:url" content="https://micah.digitale-tech.com/portfolio">
+  <meta property="og:site_name" content="Portfolio by Micah Masuka">
+  <meta property="og:image" content="https://micah.digitale-tech.com/assets/micah-masuka.webp">
+  <meta property="og:image:alt" content="Portrait of Micah Masuka">
+  <meta property="og:locale" content="en">
+  <link rel="canonical" href="https://micah.digitale-tech.com/portfolio">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon.ico" sizes="32x32">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Work, Portfolio by Micah Masuka",
+      "url": "https://micah.digitale-tech.com/portfolio",
+      "isPartOf": { "@type": "WebSite", "name": "Portfolio by Micah Masuka", "url": "https://micah.digitale-tech.com/" },
+      "author": { "@type": "Person", "name": "Micah Masuka", "jobTitle": "UX Designer", "url": "https://micah.digitale-tech.com/" }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Fira+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="/">
+        <img class="brand-photo" src="assets/micah-masuka.webp" alt="" width="28" height="28">
+        <span>Micah Masuka</span>
+      </a>
+      <div class="header-actions">
+        <nav id="site-nav" aria-label="Primary">
+          <a href="/portfolio" aria-current="page">Portfolio</a>
+          <a href="/resume">Resume</a>
+        </nav>
+        <button type="button" class="theme-toggle" aria-pressed="false" aria-label="Switch to dark mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="portfolio-page">
+      <div class="wrap">
+        <header class="page-head">
+          <h1>Portfolio</h1>
+          <p>UX work from my Logos Publicity internship and client projects.</p>
+        </header>
+
+        <section class="portfolio-group" aria-labelledby="internship-heading">
+          <header class="portfolio-group-head">
+            <h2 id="internship-heading">Internship · Logos Publicity</h2>
+            <p>Agency website restructure and client UX projects, June–September 2026.</p>
+          </header>
+          <ul class="project-grid">
+            <li>
+              <a class="project-card" href="/case-studies/logos-publicity">
+                <div class="project-media is-mockup">
+                  <img src="assets/portfolio/logos-publicity/homepage-phone-mockup.webp" alt="Logos Publicity homepage on a phone" width="1200" height="900">
+                </div>
+                <h2>Logos Publicity</h2>
+                <p>Agency website · UX · IA</p>
+              </a>
+            </li>
+            <li>
+              <a class="project-card is-confidential" href="/case-studies/sanex">
+                <div class="project-media is-confidential">
+                  <img src="assets/portfolio/sanex/welcome-screen-mockup-blurred.webp" alt="" width="1400" height="1050" aria-hidden="true">
+                  <span class="project-badge">Password protected</span>
+                </div>
+                <h2>Sanex</h2>
+                <p>Interactive display · UX · In progress</p>
+              </a>
+            </li>
+            <li>
+              <a class="project-card" href="/case-studies/espace-marine">
+                <div class="project-media project-media--text">
+                  <span>UX Research</span>
+                </div>
+                <h2>Espace Marine</h2>
+                <p>Website survey · UX research</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="portfolio-group" aria-labelledby="client-heading">
+          <header class="portfolio-group-head">
+            <h2 id="client-heading">Client work &amp; projects</h2>
+            <p>Live client websites and coursework.</p>
+          </header>
+          <ul class="project-grid">
+            <li>
+              <a class="project-card" href="/case-studies/alfresco-bakery">
+                <div class="project-media is-mockup">
+                  <img src="assets/portfolio/alfresco-the-bakery/homepage-phone-mockup.webp" alt="Alfresco The Bakery homepage on a phone" width="1200" height="900">
+                </div>
+                <h2>Alfresco Bakery</h2>
+                <p>Live client website · UX</p>
+              </a>
+            </li>
+            <li>
+              <a class="project-card" href="/case-studies/verandah-cafe">
+                <div class="project-media is-mockup">
+                  <img src="assets/portfolio/verandah-cafe/contact-page-laptop-mockup.webp" alt="Verandah Café Contact page on a laptop mockup" width="2000" height="1500">
+                </div>
+                <h2>Verandah Café</h2>
+                <p>Live client website · Visit hub · UX</p>
+              </a>
+            </li>
+            <li>
+              <a class="project-card" href="/case-studies/streamvault">
+                <div class="project-media">
+                  <img src="assets/portfolio/streamvault/streamvault-mockup-main.webp" alt="Streamvault streaming platform on a desktop monitor" width="1400" height="1050">
+                </div>
+                <h2>Streamvault</h2>
+                <p>Course project · UX/UI</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-links">
+        <a href="mailto:masukamicah@gmail.com">Email</a>
+        <ul class="badges">
+          <li>
+            <a href="https://www.linkedin.com/in/masukamicah/" target="_blank" rel="noreferrer">
+              <img src="https://img.shields.io/badge/LinkedIn-Micah_Masuka-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn: Micah Masuka" height="22" loading="lazy">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-meta">
+        <p>Built with HTML, CSS, and JavaScript</p>
+        <p>© <span id="year"></span> Micah Masuka</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

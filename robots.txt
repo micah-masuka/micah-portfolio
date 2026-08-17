@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://micah.digitale-tech.com/sitemap.xml

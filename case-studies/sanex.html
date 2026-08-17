@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <script>
+    {
+      localStorage.removeItem('color-scheme');
+      const theme = localStorage.getItem('micah-theme') === 'dark' ? 'dark' : 'light';
+      document.querySelector('meta[name="color-scheme"]').content = theme;
+      document.documentElement.classList.toggle('theme-dark', theme === 'dark');
+      document.documentElement.style.removeProperty('color-scheme');
+    }
+  </script>
+  <meta name="robots" content="noindex, nofollow">
+  <title>Sanex, Portfolio by Micah Masuka</title>
+  <meta name="description" content="Interactive questionnaire experience designed by Micah Masuka.">
+  <meta property="og:title" content="Sanex, Portfolio by Micah Masuka">
+  <meta property="og:description" content="Interactive questionnaire experience designed by Micah Masuka.">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary">
+  <meta name="author" content="Micah Masuka">
+  <meta property="og:url" content="https://micah.digitale-tech.com/case-studies/sanex">
+  <meta property="og:site_name" content="Portfolio by Micah Masuka">
+  <meta property="og:image" content="https://micah.digitale-tech.com/assets/portfolio/sanex/welcome-screen-mockup-blurred.webp">
+  <meta property="og:image:alt" content="Password protected Sanex case study preview">
+  <meta property="og:locale" content="en">
+  <link rel="canonical" href="https://micah.digitale-tech.com/case-studies/sanex">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../assets/favicon.ico" sizes="32x32">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Interactive questionnaire experience",
+      "description": "Interactive questionnaire experience designed by Micah Masuka.",
+      "url": "https://micah.digitale-tech.com/case-studies/sanex",
+      "author": { "@type": "Person", "name": "Micah Masuka", "jobTitle": "UX Designer", "url": "https://micah.digitale-tech.com/" },
+      "mainEntityOfPage": "https://micah.digitale-tech.com/case-studies/sanex"
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Fira+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/site.css">
+</head>
+<body data-case="sanex">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="/">
+        <img class="brand-photo" src="../assets/micah-masuka.webp" alt="" width="28" height="28">
+        <span>Micah Masuka</span>
+      </a>
+      <div class="header-actions">
+        <nav id="site-nav" aria-label="Primary">
+          <a href="/portfolio">Portfolio</a>
+          <a href="/resume">Resume</a>
+        </nav>
+        <button type="button" class="theme-toggle" aria-pressed="false" aria-label="Switch to dark mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <div class="wrap" id="case-root">
+      <noscript>
+        <p class="muted">This case study needs JavaScript turned on.</p>
+      </noscript>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-links">
+        <a href="mailto:masukamicah@gmail.com">Email</a>
+        <ul class="badges">
+          <li>
+            <a href="https://www.linkedin.com/in/masukamicah/" target="_blank" rel="noreferrer">
+              <img src="https://img.shields.io/badge/LinkedIn-Micah_Masuka-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn: Micah Masuka" height="22" loading="lazy">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-meta">
+        <p>Built with HTML, CSS, and JavaScript</p>
+        <p>© <span id="year"></span> Micah Masuka</p>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/case-content.js"></script>
+  <script src="../js/ia-flow.js"></script>
+  <script src="../js/image-viewer.js"></script>
+  <script src="../js/case-study.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

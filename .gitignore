@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+*.log
+.cursor/
+**/_source/
+images/
+node_modules/
+*.docx
+src/
+package.json
+package-lock.json
+tailwind.config.js
+assets/portfolio/**/*.png

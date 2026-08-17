@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <script>
+    {
+      localStorage.removeItem('color-scheme');
+      const theme = localStorage.getItem('micah-theme') === 'dark' ? 'dark' : 'light';
+      document.querySelector('meta[name="color-scheme"]').content = theme;
+      document.documentElement.classList.toggle('theme-dark', theme === 'dark');
+      document.documentElement.style.removeProperty('color-scheme');
+    }
+  </script>
+  <title>Resume, Portfolio by Micah Masuka</title>
+  <meta name="description" content="Resume of Micah Masuka, UX Designer.">
+  <meta property="og:title" content="Resume, Portfolio by Micah Masuka">
+  <meta property="og:description" content="Resume of Micah Masuka, UX Designer.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <meta name="author" content="Micah Masuka">
+  <meta property="og:url" content="https://micah.digitale-tech.com/resume">
+  <meta property="og:site_name" content="Portfolio by Micah Masuka">
+  <meta property="og:image" content="https://micah.digitale-tech.com/assets/micah-masuka.webp">
+  <meta property="og:image:alt" content="Portrait of Micah Masuka">
+  <meta property="og:locale" content="en">
+  <link rel="canonical" href="https://micah.digitale-tech.com/resume">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon.ico" sizes="32x32">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "name": "Resume, Portfolio by Micah Masuka",
+      "url": "https://micah.digitale-tech.com/resume",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Micah Masuka",
+        "jobTitle": "UX Designer",
+        "url": "https://micah.digitale-tech.com/",
+        "sameAs": ["https://www.linkedin.com/in/masukamicah/"]
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Fira+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body class="is-resume">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="/">
+        <img class="brand-photo" src="assets/micah-masuka.webp" alt="" width="28" height="28">
+        <span>Micah Masuka</span>
+      </a>
+      <div class="header-actions">
+        <nav id="site-nav" aria-label="Primary">
+          <a href="/portfolio">Portfolio</a>
+          <a href="/resume" aria-current="page">Resume</a>
+        </nav>
+        <button type="button" class="theme-toggle" aria-pressed="false" aria-label="Switch to dark mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="resume-page">
+      <div class="wrap">
+        <div class="print-only resume-print-banner">
+          <p class="resume-print-name">Micah Masuka</p>
+          <p class="resume-print-title">UX Designer</p>
+          <p class="resume-print-contact">
+            <span>masukamicah@gmail.com</span>
+            <span>linkedin.com/in/masukamicah</span>
+            <span>micah.digitale-tech.com</span>
+          </p>
+        </div>
+
+        <header class="page-head">
+          <h1>Resume</h1>
+          <p>UX Designer. I focus on clear paths, real user behaviour, and sites people can actually use.</p>
+          <p class="resume-page-head-links">
+            <a href="/portfolio">Portfolio</a>
+            <a href="/case-studies/alfresco-bakery">Case studies</a>
+          </p>
+        </header>
+
+        <section class="resume-block resume-summary" aria-labelledby="summary-heading">
+          <h2 id="summary-heading">Summary</h2>
+          <div>
+            <p>UX Designer with live client websites, agency internship experience, and a B.S. in Design for User Experience from Lesley University (December 2026). I design clear paths through digital products and ship work people can actually use.</p>
+            <ul class="resume-highlights">
+              <li>Designed and built live sites for <a href="/case-studies/alfresco-bakery">Alfresco The Bakery</a> and <a href="/case-studies/verandah-cafe">Verandah Café</a>, using cPanel analytics to guide ongoing UX updates</li>
+              <li>Restructured <a href="/case-studies/logos-publicity">Logos Publicity</a>’s agency website around service-led information architecture</li>
+              <li>Internship UX work: Sanex retail kiosk interaction design and an Espace Marine website survey for a client redesign</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="resume-block" aria-labelledby="experience-heading">
+          <h2 id="experience-heading">Experience</h2>
+
+          <article class="resume-role">
+            <h3>Intern</h3>
+            <p class="meta">Logos Publicity Ltd · Curepipe, Mauritius · June 2026 – September 2026</p>
+
+            <div class="resume-sub">
+              <h4><a href="/case-studies/logos-publicity">Logos Publicity website</a></h4>
+              <p class="meta">Agency site · <a href="/case-studies/logos-publicity">Case study</a> · <a href="https://logospublicity.com/" rel="noreferrer">Live site</a></p>
+              <ul>
+                <li>Reworked the agency’s main static website in HTML, CSS, and JavaScript so clients can find services faster on mobile and desktop.</li>
+                <li>Restructured information architecture around a service-led approach; improved layouts, typography, responsive behaviour, and SEO.</li>
+              </ul>
+            </div>
+
+            <div class="resume-internship-projects">
+              <p class="resume-group-label">Client UX projects</p>
+
+              <div class="resume-sub">
+                <h4><a href="/case-studies/sanex">Sanex</a></h4>
+                <p class="meta">BrandActiv · Interaction design · Password-protected case study</p>
+                <ul>
+                  <li>Designed a bilingual, touch-first retail kiosk that turns skin-care facts into a five-question challenge and product recommendation flow.</li>
+                </ul>
+              </div>
+
+              <div class="resume-sub">
+                <h4><a href="/case-studies/espace-marine">Espace Marine</a></h4>
+                <p class="meta">UX research · Website survey</p>
+                <ul>
+                  <li>Developed a 15-question website survey across seven sections to inform a client website redesign: visit purpose, findability, content priorities, e-commerce readiness, brand perception, and overall satisfaction.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="resume-role">
+            <h3>UX Design Consultant</h3>
+            <p class="meta">Freelance · Remote · January 2022 – Present</p>
+            <ul>
+              <li>Design and build responsive websites for businesses, from understanding the goal through to a usable live site.</li>
+            </ul>
+
+            <div class="resume-sub">
+              <h4><a href="/case-studies/alfresco-bakery">Alfresco The Bakery</a></h4>
+              <p class="meta">April 2025 – Present · <a href="/case-studies/alfresco-bakery">Case study</a> · <a href="https://alfrescothebakery.com/" rel="noreferrer">alfrescothebakery.com</a></p>
+              <ul>
+                <li>Proposed, designed, and built a responsive website after the bakery started getting found online.</li>
+                <li>Continue to support the live site through UX updates, SEO, and cPanel analytics. Menu and gallery are the pages visitors use most.</li>
+              </ul>
+            </div>
+
+            <div class="resume-sub">
+              <h4><a href="/case-studies/verandah-cafe">Verandah Café</a></h4>
+              <p class="meta">September 2025 – Present · <a href="https://verandahcafe.com/" rel="noreferrer">verandahcafe.com</a></p>
+              <ul>
+                <li>Designed and built a responsive website from scratch.</li>
+                <li>Continue to support the live site through UX updates, SEO, and cPanel analytics. Menu, contact, and location are the paths visitors use most.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="resume-org resume-role">
+            <h3>Youth for Christ International</h3>
+            <p class="meta">Part-time · Remote · March 2022 – Present</p>
+
+            <div class="resume-sub">
+              <h4>Learning Management System Coordinator</h4>
+              <p class="meta">January 2026 – Present</p>
+              <ul>
+                <li>Coordinate LMS content, users, and digital learning resources on Pathwright for a global audience.</li>
+                <li>Review and improve course materials for clarity, navigation, and usability.</li>
+              </ul>
+            </div>
+
+            <div class="resume-sub">
+              <h4>Digital Media Team Lead</h4>
+              <p class="meta">Youth For Christ Int./Africa · January 2026 – Present</p>
+              <ul>
+                <li>Lead a digital media team supporting online communication and creative projects across regional initiatives.</li>
+              </ul>
+            </div>
+
+            <div class="resume-sub">
+              <h4>Virtual Assistant</h4>
+              <p class="meta">March 2022 – Present</p>
+              <ul>
+                <li>Support online learning for 55+ participants across 22 African countries on Google Classroom and Pathwright.</li>
+                <li>Troubleshoot access, navigation, and course issues; redesign programme materials to make instructions clearer.</li>
+              </ul>
+            </div>
+          </article>
+        </section>
+
+        <section class="resume-block resume-print-page-break" aria-labelledby="education-heading">
+          <h2 id="education-heading">Education</h2>
+          <article class="resume-role">
+            <h3>Lesley University</h3>
+            <p class="meta">Bachelor of Science, Design for User Experience · September 2022 – December 2026</p>
+            <ul>
+              <li>Dean’s List, Fall 2023</li>
+              <li>Relevant coursework: UX research methods, information architecture, interaction design, design thinking, visual communication</li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="resume-block" aria-labelledby="skills-heading">
+          <h2 id="skills-heading">Skills</h2>
+          <dl class="resume-skills">
+            <div>
+              <dt>UX &amp; research</dt>
+              <dd>
+                <ul class="badges">
+                  <li><img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" height="22" loading="lazy"></li>
+                  <li><span class="skill-chip method">Information architecture</span></li>
+                  <li><span class="skill-chip method">Surveys</span></li>
+                  <li><span class="skill-chip method">Personas</span></li>
+                  <li><span class="skill-chip method">Wireframes</span></li>
+                  <li><span class="skill-chip method">cPanel Analytics</span></li>
+                </ul>
+              </dd>
+            </div>
+            <div>
+              <dt>Design</dt>
+              <dd>
+                <ul class="badges">
+                  <li>
+                    <span class="skill-chip photoshop">
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M9.85 8.42c-.37-.15-.77-.21-1.18-.2-.26 0-.49 0-.68.01-.2-.01-.34 0-.41.01v3.36c.14.01.27.02.39.02h.53c.39 0 .78-.06 1.15-.18.32-.09.6-.28.82-.53.21-.25.31-.59.31-1.03.01-.31-.07-.62-.23-.89-.17-.26-.41-.46-.7-.57zM19.75.3H4.25C1.9.3 0 2.2 0 4.55v14.899c0 2.35 1.9 4.25 4.25 4.25h15.5c2.35 0 4.25-1.9 4.25-4.25V4.55C24 2.2 22.1.3 19.75.3zm-7.391 11.65c-.399.56-.959.98-1.609 1.22-.68.25-1.43.34-2.25.34-.24 0-.4 0-.5-.01s-.24-.01-.43-.01v3.209c.01.07-.04.131-.11.141H5.52c-.08 0-.12-.041-.12-.131V6.42c0-.07.03-.11.1-.11.17 0 .33 0 .56-.01.24-.01.49-.01.76-.02s.56-.01.87-.02c.31-.01.61-.01.91-.01.82 0 1.5.1 2.06.31.5.17.96.45 1.34.82.32.32.57.71.73 1.14.149.42.229.85.229 1.3.001.86-.199 1.57-.6 2.13zm7.091 3.89c-.28.4-.671.709-1.12.891-.49.209-1.09.318-1.811.318-.459 0-.91-.039-1.359-.129-.35-.061-.7-.17-1.02-.32-.07-.039-.121-.109-.111-.189v-1.74c0-.029.011-.07.041-.09.029-.02.06-.01.09.01.39.23.8.391 1.24.49.379.1.779.15 1.18.15.38 0 .65-.051.83-.141.16-.07.27-.24.27-.42 0-.141-.08-.27-.24-.4-.16-.129-.489-.279-.979-.471-.51-.18-.979-.42-1.42-.719-.31-.221-.569-.51-.761-.85-.159-.32-.239-.67-.229-1.021 0-.43.12-.84.341-1.21.25-.4.619-.72 1.049-.92.469-.239 1.059-.349 1.769-.349.41 0 .83.03 1.24.09.3.04.59.12.86.23.039.01.08.05.1.09.01.04.02.08.02.12v1.63c0 .04-.02.08-.05.1-.09.02-.14.02-.18 0-.3-.16-.62-.27-.96-.34-.37-.08-.74-.13-1.12-.13-.2-.01-.41.02-.601.07-.129.03-.24.1-.31.2-.05.08-.08.18-.08.27s.04.18.101.26c.09.11.209.2.34.27.229.12.47.23.709.33.541.18 1.061.43 1.541.73.33.209.6.49.789.83.16.318.24.67.23 1.029.011.471-.129.94-.389 1.331z"/></svg>
+                      Photoshop
+                    </span>
+                  </li>
+                  <li>
+                    <span class="skill-chip indesign">
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4.25.3C1.9.3 0 2.2 0 4.55v14.9c0 2.35 1.9 4.25 4.25 4.25h15.5c2.35 0 4.25-1.9 4.25-4.25V4.55C24 2.2 22.1.3 19.75.3zm11.31 5.13h2.03c.05-.01.09.03.1.07v9.54c0 .18.01.38.02.6.02.21.03.41.04.58 0 .07-.03.13-.1.16-.52.22-1.07.38-1.63.48-.5.09-1.02.14-1.54.14-.74.01-1.48-.14-2.15-.45-.63-.29-1.15-.77-1.51-1.36-.37-.61-.55-1.37-.55-2.28-.01-.74.18-1.47.55-2.11.38-.65.93-1.19 1.59-1.55.7-.39 1.54-.58 2.53-.58.05 0 .12 0 .21.01s.19.01.31.02V5.54c0-.07.03-.11.1-.11zm-8.93.86h1.95c.06-.01.12.03.13.1.01.01.01.02.01.03v10.26c0 .11-.05.16-.14.16H6.62c-.09 0-.13-.05-.13-.16V6.42c0-.09.05-.13.14-.13zm8.23 4.24c-.39 0-.78.08-1.13.26-.34.17-.63.42-.85.74-.22.32-.33.75-.33 1.27-.01.35.05.7.17 1.03.1.27.25.51.45.71.19.18.42.32.68.4.27.09.55.13.83.13.15 0 .29-.01.42-.02.13.01.25-.01.36-.05v-4.4c-.09-.02-.18-.04-.27-.05-.11-.01-.22-.02-.33-.02z"/></svg>
+                      InDesign
+                    </span>
+                  </li>
+                  <li><img src="https://img.shields.io/badge/Miro-050038?style=flat-square&logo=miro&logoColor=white" alt="Miro" height="22" loading="lazy"></li>
+                  <li><img src="https://img.shields.io/badge/Canva-00C4CC?style=flat-square&logo=canva&logoColor=white" alt="Canva" height="22" loading="lazy"></li>
+                </ul>
+              </dd>
+            </div>
+            <div>
+              <dt>Web</dt>
+              <dd>
+                <ul class="badges">
+                  <li><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML" height="22" loading="lazy"></li>
+                  <li>
+                    <span class="skill-chip css">
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"/></svg>
+                      CSS
+                    </span>
+                  </li>
+                  <li><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" height="22" loading="lazy"></li>
+                  <li><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" height="22" loading="lazy"></li>
+                  <li>
+                    <span class="skill-chip vscode">
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z"/></svg>
+                      VS Code
+                    </span>
+                  </li>
+                </ul>
+              </dd>
+            </div>
+            <div>
+              <dt>Tools</dt>
+              <dd>
+                <ul class="badges">
+                  <li>
+                    <span class="skill-chip slack">
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5.042 15.165a2.528 2.528 0 0 1-2.52 2.523A2.528 2.528 0 0 1 0 15.165a2.527 2.527 0 0 1 2.522-2.52h2.52v2.52zM6.313 15.165a2.527 2.527 0 0 1 2.521-2.52 2.527 2.527 0 0 1 2.521 2.52v6.313A2.528 2.528 0 0 1 8.834 24a2.528 2.528 0 0 1-2.521-2.522v-6.313zM8.834 5.042a2.528 2.528 0 0 1-2.521-2.52A2.528 2.528 0 0 1 8.834 0a2.528 2.528 0 0 1 2.521 2.522v2.52H8.834zM8.834 6.313a2.528 2.528 0 0 1 2.521 2.521 2.528 2.528 0 0 1-2.521 2.521H2.522A2.528 2.528 0 0 1 0 8.834a2.528 2.528 0 0 1 2.522-2.521h6.312zM18.956 8.834a2.528 2.528 0 0 1 2.522-2.521A2.528 2.528 0 0 1 24 8.834a2.528 2.528 0 0 1-2.522 2.521h-2.522V8.834zM17.688 8.834a2.528 2.528 0 0 1-2.523 2.521 2.527 2.527 0 0 1-2.52-2.521V2.522A2.527 2.527 0 0 1 15.165 0a2.528 2.528 0 0 1 2.523 2.522v6.312zM15.165 18.956a2.528 2.528 0 0 1 2.523 2.522A2.528 2.528 0 0 1 15.165 24a2.527 2.527 0 0 1-2.52-2.522v-2.522h2.52zM15.165 17.688a2.527 2.527 0 0 1-2.52-2.523 2.526 2.526 0 0 1 2.52-2.52h6.313A2.527 2.527 0 0 1 24 15.165a2.528 2.528 0 0 1-2.522 2.523h-6.313z"/></svg>
+                      Slack
+                    </span>
+                  </li>
+                  <li>
+                    <span class="skill-chip pathwright">
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" d="M2.4 12.2c1.7-6.4 3.5-6.4 5.2 0 1.7 6.4 3.4 6.4 5.1 0 1.7-6.4 3.5-6.4 5.2 0 1.1 4.2 2.1 5.2 3.1 1.6"/></svg>
+                      Pathwright
+                    </span>
+                  </li>
+                  <li><img src="https://img.shields.io/badge/Google_Drive-4285F4?style=flat-square&logo=googledrive&logoColor=white" alt="Google Drive" height="22" loading="lazy"></li>
+                  <li><img src="https://img.shields.io/badge/Google_Docs-4285F4?style=flat-square&logo=googledocs&logoColor=white" alt="Google Docs" height="22" loading="lazy"></li>
+                  <li>
+                    <span class="skill-chip word">
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M23.004 1.5q.41 0 .703.293t.293.703v19.008q0 .41-.293.703t-.703.293H6.996q-.41 0-.703-.293T6 21.504V18H.996q-.41 0-.703-.293T0 17.004V6.996q0-.41.293-.703T.996 6H6V2.496q0-.41.293-.703t.703-.293zM6.035 11.203l1.442 4.735h1.64l1.57-7.876H9.036l-.937 4.653-1.325-4.5H5.38l-1.406 4.523-.938-4.675H1.312l1.57 7.874h1.641zM22.5 21v-3h-15v3zm0-4.5v-3.75H12v3.75zm0-5.25V7.5H12v3.75zm0-5.25V3h-15v3Z"/></svg>
+                      Word
+                    </span>
+                  </li>
+                </ul>
+              </dd>
+            </div>
+          </dl>
+        </section>
+
+        <section class="resume-block resume-print-contact-block" aria-labelledby="contact-heading">
+          <h2 id="contact-heading">Contact</h2>
+          <p class="resume-contact">
+            <a href="mailto:masukamicah@gmail.com">masukamicah@gmail.com</a>
+            <a href="mailto:mmasuka@lesley.edu">mmasuka@lesley.edu</a>
+            <a href="https://www.linkedin.com/in/masukamicah/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </p>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-links">
+        <a href="mailto:masukamicah@gmail.com">Email</a>
+        <ul class="badges">
+          <li>
+            <a href="https://www.linkedin.com/in/masukamicah/" target="_blank" rel="noreferrer">
+              <img src="https://img.shields.io/badge/LinkedIn-Micah_Masuka-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn: Micah Masuka" height="22" loading="lazy">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-meta">
+        <p>Built with HTML, CSS, and JavaScript</p>
+        <p>© <span id="year"></span> Micah Masuka</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
