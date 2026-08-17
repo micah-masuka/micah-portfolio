@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/digivwht/micah.digitale-tech.com
+    - /bin/cp -f index.html portfolio.html resume.html robots.txt sitemap.xml .htaccess $DEPLOYPATH
+    - /bin/cp -Rf css js case-studies assets $DEPLOYPATH
