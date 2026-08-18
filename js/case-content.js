@@ -57,7 +57,7 @@ window.MicahPortfolio.caseStudies = {
       ],
       meta: {
         Role: 'Intern · experience design and build',
-        Team: 'Logos Publicity directors',
+        Team: 'Wider Logos Publicity creative team',
         Timeline: 'June 2026 – September 2026',
         Constraint: 'I wanted a rebrand. Directors said no. Structure, navigation, and contact could change.',
         Outcome: 'Live at logospublicity.com'
@@ -530,11 +530,12 @@ window.MicahPortfolio.caseStudies = {
         'Supplied the five-question set, correct answers, and approved product assets.',
         'Developed the touch-first interface in HTML, CSS, and JavaScript, including scoring, answer feedback, and product recommendations.',
         'Implemented French-first bilingual content, the product carousel, session state, and the inactivity warning and reset flow.',
+        'Used AI-assisted coding as part of the development workflow, while directing, integrating, testing, and refining the final implementation.',
         'Exploring how the kiosk results screen can hand off to the longer skin survey already on sanex.fr.'
       ],
       meta: {
         Role: 'Interaction design and frontend development',
-        Team: 'Logos Publicity · designed and developed by Micah Masuka',
+        Team: 'Logos Publicity Senior Designer and Director/Communication Strategist',
         Client: 'BrandActiv (Sanex)',
         Timeline: 'June 2026 – September 2026',
         Constraint: '43-inch public kiosk, ~2 minutes, French-first, Chrome kiosk mode.'
@@ -707,7 +708,7 @@ window.MicahPortfolio.caseStudies = {
       ],
       meta: {
         Role: 'UX research',
-        Team: 'Logos Publicity',
+        Team: 'Espace Marine Marketing Director and Logos Publicity Director/Communication Strategist',
         Timeline: 'June 2026 – September 2026',
         Constraint: 'Research before any visual redesign. Survey went out; findings stay internal.',
         Deliverable: 'Website survey and research direction'
