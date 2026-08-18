@@ -509,7 +509,7 @@ window.MicahPortfolio.caseStudies = {
   sanex: {
     slug: 'sanex',
     title: 'Sanex Skin Facts Challenge, retail kiosk',
-    eyebrow: 'Sanex · Interaction design',
+    eyebrow: 'Sanex · Interaction design and frontend development',
     confidential: true,
     gateHash: '691283faa23e8fa6ab124caa333a50a97a33c3a35e4a5a47df51d3d36d2e2ce8',
     gatePassword: 'sanex-ux',
@@ -522,18 +522,19 @@ window.MicahPortfolio.caseStudies = {
       'The experience was built for a 43-inch landscape touchscreen kiosk (1920×1080), a laptop hidden behind the unit running the display in Chrome kiosk mode. I had not designed for this format before, so I started by researching kiosk UI patterns and reviewing the hardware dimensions and stand the client supplied.'
     ],
     role: {
-      title: 'Interaction design and content direction',
-      summary: 'I shaped the overall concept, question set, visual direction, and kiosk context. A developer translated it into a lightweight static web app with JSON-editable content, animations, bilingual support, and deployment-ready kiosk behaviour.',
+      title: 'Interaction design and frontend development',
+      summary: 'I shaped the concept, question flow, visual direction, and kiosk context, then developed the experience as a lightweight static web app. I implemented the editable content structure, animations, bilingual support, scoring and recommendations, and deployment-ready kiosk behaviour.',
       points: [
         'Defined the educational quiz → product discovery flow for a standing, public touchscreen.',
         'Sketched the welcome screen layout and directed Sanex branding, typography, and pack-shot placement.',
         'Supplied the five-question set, correct answers, and approved product assets.',
-        'Reviewed touch-target sizing, feedback patterns, idle reset, and bilingual copy with development.',
+        'Developed the touch-first interface in HTML, CSS, and JavaScript, including scoring, answer feedback, and product recommendations.',
+        'Implemented French-first bilingual content, the product carousel, session state, and the inactivity warning and reset flow.',
         'Exploring how the kiosk results screen can hand off to the longer skin survey already on sanex.fr.'
       ],
       meta: {
-        Role: 'Interaction design and content direction',
-        Team: 'Logos Publicity · developer built the app',
+        Role: 'Interaction design and frontend development',
+        Team: 'Logos Publicity · designed and developed by Micah Masuka',
         Client: 'BrandActiv (Sanex)',
         Timeline: 'June 2026 – September 2026',
         Constraint: '43-inch public kiosk, ~2 minutes, French-first, Chrome kiosk mode.'
@@ -567,7 +568,7 @@ window.MicahPortfolio.caseStudies = {
       {
         heading: 'From wireframe to final welcome screen design.',
         paragraphs: [
-          'I started with a hand-drawn wireframe: logo, headline, start button on the left; product showcase on the right. The final front-page design kept that split layout, and the built welcome screen carried it through, Sanex branding and “Lancer le défi” on one side, rotating approved pack shots on the other.'
+          'I started with a hand-drawn wireframe: logo, headline, start button on the left; product showcase on the right. I carried that split layout into the interface I developed, with Sanex branding and “Lancer le défi” on one side and rotating approved pack shots on the other.'
         ],
         images: [
           {
@@ -678,7 +679,7 @@ window.MicahPortfolio.caseStudies = {
       'French-first was a content decision, not a toggle afterthought. Default language has to match how the store actually talks.'
     ],
     conclusion: [
-      'The challenge keeps commitment low (~2 minutes, no login), gives instant learning on every answer, and ends with a soft product recommendation tied to what the shopper did not know, built as a static HTML/CSS/JS app with JSON-editable questions and a 19-product catalogue for the welcome carousel.',
+      'I designed and developed the challenge as a static HTML/CSS/JavaScript app. It keeps commitment low (~2 minutes, no login), gives instant learning on every answer, and ends with a soft product recommendation tied to what the shopper did not know, with JSON-editable questions and a 19-product catalogue for the welcome carousel.',
       'French-first bilingual support matches how shoppers engage with Sanex in Mauritius through BrandActiv. The kiosk-to-web handoff is the next design problem: linking an in-store touch experience to the existing sanex.fr survey without breaking kiosk mode or the public-use flow.'
     ]
   },
