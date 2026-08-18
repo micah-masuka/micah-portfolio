@@ -351,6 +351,29 @@
       </section>`;
   }
 
+  function renderFigmaEmbed(study) {
+    const embed = study.figmaEmbed;
+    if (!embed?.src) return '';
+    const heading = embed.heading || 'Interactive Prototype';
+    const caption = embed.caption || 'Explore the interactive Figma prototype below.';
+    return `
+      <section class="case-section" aria-labelledby="figma-embed-heading">
+        <h2 id="figma-embed-heading">${encode(heading)}</h2>
+        <div class="case-body">
+          <p>${encode(caption)}</p>
+          <div class="figma-embed-wrap" style="position:relative;width:100%;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;border:1px solid var(--color-border, rgba(0,0,0,0.12));">
+            <iframe
+              src="${encode(embed.src)}"
+              style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+              allowfullscreen
+              loading="lazy"
+              title="${encode(embed.title || heading)}"
+            ></iframe>
+          </div>
+        </div>
+      </section>`;
+  }
+
   function renderPdfDownload(study) {
     const pdf = study.pdf;
     if (!pdf?.href) return '';
@@ -380,6 +403,7 @@
     { slug: 'logos', href: '/case-studies/logos-publicity', label: 'Logos Publicity' },
     { slug: 'sanex', href: '/case-studies/sanex', label: 'Sanex' },
     { slug: 'streamvault', href: '/case-studies/streamvault', label: 'Streamvault' },
+    { slug: 'lucad', href: '/case-studies/lucad-airlines', label: 'LUCAD Airlines' },
     { slug: 'espace', href: '/case-studies/espace-marine', label: 'Espace Marine' }
   ];
 
@@ -422,6 +446,7 @@
         </header>
         ${renderBackground(study)}
         ${renderRole(study)}
+        ${renderFigmaEmbed(study)}
         ${renderIaFlow(study)}
         ${renderDesign(study)}
         ${renderNotPursued(study)}

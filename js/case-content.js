@@ -17,41 +17,39 @@ window.MicahPortfolio.caseStudies = {
     live: { href: 'https://logospublicity.com/', label: 'Visit the live website' },
     next: { href: '/case-studies/sanex', label: 'Sanex' },
     background: [
-      'Logos Publicity is a long-established advertising and communication agency. The website exists so clients can understand the agency and find the services it offers.',
-      'The old site was a one-page template with a full-screen video that loaded as soon as the homepage opened. Services and work lived in two separate folders, so a service page did not lead into that service’s work.',
-      'Navigation was the other break. On a large screen the links sat behind a hamburger, not in a visible menu. On a phone the template cloned that same hamburger into a second overlay, so the menu took two taps before the links appeared.'
+      'Logos Publicity is an established advertising and communication agency. Their website helps prospective clients explore services and review portfolio work.',
+      'The previous site relied on a heavy video hero and separated services and portfolio projects into disjointed folders. As a result, exploring a service didn’t lead clients to the corresponding work.',
+      'Navigation was another critical friction point: desktop links were hidden behind a hamburger icon, and mobile users had to navigate a cumbersome two-tap menu overlay just to access page links.'
     ],
     role: {
       title: 'Experience design and build',
-      summary: 'Directors at Logos Publicity brought me in to fix the agency’s own website. They were not happy with how the site was laid out or how the pages worked, clients could not move cleanly from a service to that service’s work, mobile navigation was broken, and contact was hard to reach once you left the homepage. I reviewed the live site and the old files, mapped where the structure broke, and rebuilt the site around services with their direction. The updated site is live at logospublicity.com.',
+      summary: 'Brought in by Logos Publicity directors to resolve structural and navigational friction on the agency’s site. I audited the site, mapped the broken user flows, and rebuilt the architecture around service-led hubs with streamlined navigation. The site is live at logospublicity.com.',
       subsections: [
         {
-          heading: 'What directors asked for',
+          heading: 'Director Objectives',
           items: [
-            'A site that reflects how the agency actually works, not a template where services and portfolio work live in separate folders.',
-            'Pages that help clients understand what Logos offers, see relevant work, and get in touch without getting lost.',
-            'A layout that works on phones, not just desktop, including navigation people can actually use.',
-            'Contact, services, and enquiry paths that work from every page, not only from the bottom of the homepage.'
+            'Align site structure with real agency services instead of disconnected portfolio folders.',
+            'Create seamless user paths from service exploration directly into relevant work and contact forms.',
+            'Fix mobile navigation so page links are accessible in a single tap.',
+            'Ensure contact options are reachable globally across all pages, not just the homepage.'
           ]
         },
         {
-          heading: 'How I worked',
+          heading: 'My Approach',
           items: [
-            'Started by auditing the old homepage, service pages, works folder, and mobile menu against what directors said was not working.',
-            'Reviewed how other agencies in Mauritius, and a few global references such as Pentagram, organise services, work, and contact on their sites.',
-            'Mapped the breaks, split folders, two-tap menu, homepage-only contact, service pages that did not lead into work, before proposing a service-led structure.',
-            'Built the restructure in HTML, CSS, and JavaScript, checking layouts and responsive behaviour with directors as pages took shape.',
-            'Continued file cleanup, SEO updates, and content adjustments after the site went live.'
+            'Audited existing user flows, page templates, and mobile menu performance.',
+            'Analyzed local and global agency benchmarks (e.g. Pentagram) to map optimal service-to-work architecture.',
+            'Proposed and built a service-first layout using semantic HTML, custom CSS, and vanilla JS.',
+            'Validated responsive layouts and navigation drawer behavior directly with company directors.'
           ]
         },
         {
-          heading: 'What I delivered',
+          heading: 'Key Deliverables',
           items: [
-            'Service-led information architecture: home → service hub → work → contact.',
-            'One-tap mobile menu drawer and a visible desktop menu with a Services dropdown.',
-            'A footer with contact details, quick links, and legal pages on every page.',
-            'FAQ sections on the homepage, contact page, and each main service hub.',
-            'Responsive layout, typography, and spacing updates across the live site.'
+            'Service-led information architecture: Home → Service Hub → Portfolio Work → Contact.',
+            'One-tap mobile drawer menu and visible desktop header with a clear Services dropdown.',
+            'Global footer featuring contact details, site navigation, and legal links on every page.',
+            'Contextual FAQ accordions across homepage, contact page, and key service hubs.'
           ]
         }
       ],
@@ -59,97 +57,97 @@ window.MicahPortfolio.caseStudies = {
         Role: 'Intern · experience design and build',
         Team: 'Wider Logos Publicity creative team',
         Timeline: 'June 2026 – September 2026',
-        Constraint: 'I wanted a rebrand. Directors said no. Structure, navigation, and contact could change.',
+        Constraint: 'Focus restricted to UX, layout, navigation, and IA (rebranding out of scope).',
         Outcome: 'Live at logospublicity.com'
       }
     },
     iaFlow: {
-      heading: 'Old structure vs new structure',
-      intro: 'Toggle the two models, click any step for detail, or trace the client path.',
+      heading: 'Old structure vs. new structure',
+      intro: 'Toggle the models to compare broken legacy paths against the streamlined service architecture.',
       variants: {
         old: {
-          label: 'Old site',
-          summary: 'Split folders, homepage contact, and dead ends.',
+          label: 'Old Site',
+          summary: 'Split folders, homepage-only contact, and dead ends.',
           layout: 'split',
           steps: [
             {
               id: 'home',
               label: 'Homepage',
               sub: 'One-page scroll',
-              detail: 'A hero video loaded on arrival. About, services, work, and contact were sections on the same long page.',
+              detail: 'Heavy hero video arrival. About, services, work, and contact stacked in a single long scroll.',
               trace: 1
             },
             {
               id: 'services',
               label: '/services/',
-              sub: 'Flat HTML pages',
-              detail: 'Service pages like design.html and advertising.html sat as separate files. They did not link into project pages under /works/.',
+              sub: 'Isolated HTML pages',
+              detail: 'Service pages sat isolated without direct links into portfolio project files under /works/.',
               trace: 2
             },
             {
               id: 'works',
               label: '/works/',
-              sub: 'Category folders',
-              detail: 'Portfolio pieces lived in folders such as works/design/, works/adv/, and works/pub/, a separate tree from /services/.',
+              sub: 'Disconnected folders',
+              detail: 'Portfolio pieces lived in separate category folders (works/design/, works/adv/) disconnected from services.',
               trace: 3
             },
             {
               id: 'service-page',
               label: 'services/design.html',
-              sub: 'Grid of other services',
-              detail: 'Design opened on a grid of other services, not a path into packaging or publications in the works folder.',
+              sub: 'Generic service grid',
+              detail: 'Selecting Design opened a grid of other service titles rather than relevant portfolio work.',
               trace: 4
             },
             {
               id: 'work-page',
               label: 'works/design/packaging.html',
               sub: 'Isolated project',
-              detail: 'A client could land on a project page with no clear route back to the service name they searched for.',
+              detail: 'Project pages had no clear return path back to the parent service topic.',
               trace: 5
             },
             {
               id: 'contact',
               label: 'Contact',
-              sub: '#contact on homepage',
-              detail: 'Contact details sat in a section at the bottom of index.html. From inner pages, enquiry meant going back to the homepage scroll.',
+              sub: '#contact section',
+              detail: 'Contact sat exclusively on index.html, forcing users on inner pages to navigate back to the homepage.',
               trace: 6
             }
           ],
           breaks: [
-            { between: ['service-page', 'work-page'], label: 'No linked path' }
+            { between: ['service-page', 'work-page'], label: 'No direct link' }
           ]
         },
         new: {
-          label: 'New site',
-          summary: 'Service-led hubs with work nested underneath.',
+          label: 'New Site',
+          summary: 'Service-led hubs with nested project work.',
           layout: 'linear',
           steps: [
             {
               id: 'home',
               label: 'Home',
               sub: 'Agency overview',
-              detail: 'Introduces Logos Publicity and routes people into services, work, and contact.',
+              detail: 'Introduces agency capabilities and routes users directly to services, portfolio, and contact.',
               trace: 1
             },
             {
               id: 'service',
-              label: 'Service hub',
+              label: 'Service Hub',
               sub: 'services/branding.html',
-              detail: 'Each service has a hub page, Branding, Advertising, Marketing & Communication Strategy, and the rest, that introduces the offer and links into that work.',
+              detail: 'Dedicated hubs (Branding, Advertising, Strategy) introduce services and directly feature related work.',
               trace: 2
             },
             {
               id: 'work',
-              label: 'Work',
-              sub: 'Under the service folder',
-              detail: 'Project pages now sit inside the service folder, e.g. services/branding/packaging.html, so the work stays tied to the service.',
+              label: 'Portfolio Work',
+              sub: 'Nested under service',
+              detail: 'Projects live inside their parent service folder (e.g. services/branding/packaging.html), maintaining context.',
               trace: 3
             },
             {
               id: 'contact',
-              label: 'Contact',
+              label: 'Global Contact',
               sub: 'contact.html',
-              detail: 'contact.html is reachable from the menu and footer on every page, not only from a homepage section.',
+              detail: 'Dedicated contact page accessible instantly from header nav and footer on every page.',
               trace: 4
             }
           ]
@@ -649,6 +647,11 @@ window.MicahPortfolio.caseStudies = {
             src: '../assets/portfolio/sanex/feedback-correct-answer.webp',
             alt: 'Sanex quiz correct-answer feedback screen with explanation and next button',
             caption: 'Instant feedback: correct answer, explanation, tap to continue.'
+          },
+          {
+            src: '../assets/portfolio/sanex/wrong answer.webp',
+            alt: 'Sanex quiz wrong-answer feedback screen showing learning gap advice',
+            caption: 'Instant feedback: wrong answer explanation turned into a learning moment.'
           },
           {
             src: '../assets/portfolio/sanex/results-screen.webp',
@@ -1285,5 +1288,150 @@ window.MicahPortfolio.caseStudies = {
       href: '../assets/portfolio/streamvault/streamvault-case-study.pdf',
       label: 'View full Streamvault case study (PDF)'
     }
+  },
+  lucad: {
+    slug: 'lucad',
+    title: 'LUCAD Airlines Mobile Flight Booking App',
+    eyebrow: 'Lesley University · Coursework',
+    lede: 'A mobile flight booking prototype produced as a Lesley University coursework exercise. My professor gave us a fictional airline brief and the university\'s brand colours, and we had to design and prototype the full app in Figma.',
+    tags: ['UX Design', 'Mobile Prototype', 'Figma', 'Coursework'],
+    figmaEmbed: {
+      src: 'https://embed.figma.com/proto/w7aBqdZSUbooy1cv3kbUol/LUCAD-Airlines?node-id=4020-494&viewport=278%2C160%2C0.54&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&embed-host=share',
+      heading: 'Interactive Prototype',
+      title: 'LUCAD Airlines — Interactive Figma Prototype',
+      caption: 'Click through the prototype below to explore the full booking flow — sign in, search flights, book, browse promotions, and view your profile.'
+    },
+    next: { href: '/case-studies/espace-marine', label: 'Espace Marine' },
+    background: [
+      'LUCAD Airlines is a fictional airline concept created as part of a Lesley University coursework exercise. My professor set the brief: design a mobile flight booking app using a fixed set of brand colours derived from the university palette.',
+      'The given colours were a dark forest green (#004C45), a mid green (#039661), a light green (#87C979), white, and black. Everything in the UI, from background surfaces and action buttons to navigation bars and iconography, had to work harmoniously within that palette.',
+      'The coursework covered the full design process: logo and brand identity, screen layout, component design, user flow mapping, and a linked interactive Figma prototype.'
+    ],
+    role: {
+      title: 'Mobile UX/UI Design & Prototyping',
+      summary: 'I designed the LUCAD Airlines brand and mobile app from scratch as a solo coursework exercise. The brief came from my professor: a fictional airline, a fixed university colour palette, and a requirement to deliver a fully linked Figma prototype covering the core booking journey.',
+      subsections: [
+        {
+          heading: 'What the brief required',
+          items: [
+            'Design a mobile flight booking app for a fictional airline called LUCAD Airlines.',
+            'Apply the Lesley University brand colour palette as the UI colour system.',
+            'Cover the key user flows: sign in, homepage, flight search, booking, promotions, and profile.',
+            'Deliver a fully linked interactive prototype in Figma.'
+          ]
+        },
+        {
+          heading: 'How I worked',
+          items: [
+            'Started with the university colour palette and designed the LUCAD Airlines logo variations directly within Figma.',
+            'Moved straight into fast, digital prototyping with quick iterations rather than paper sketching to test layout and contrast directly on screen.',
+            'Built a consistent component system for buttons, cards, navigation bars, and inputs through rapid iteration cycles.',
+            'Linked all screens in Figma into a cohesive interactive prototype to test user flows end to end.'
+          ]
+        },
+        {
+          heading: 'What I produced',
+          items: [
+            'LUCAD Airlines logo and brand identity within the university colour system.',
+            'Six core screens: sign in, home, flight search, booking, promotions, and profile.',
+            'A linked Figma prototype demonstrating the complete user flow.',
+            'A colour and component reference using #004C45, #039661, and #87C979.'
+          ]
+        }
+      ],
+      meta: {
+        Role: 'Student UX/UI Designer',
+        Context: 'Lesley University coursework exercise',
+        Brief: 'Professor-assigned fictional airline project',
+        Constraint: 'Fixed university brand colour palette, mobile only',
+        Outcome: 'Linked Figma interactive prototype'
+      }
+    },
+    design: [
+      {
+        heading: 'Brand colours and logo.',
+        paragraphs: [
+          'The professor provided the Lesley University colour palette as the starting constraint: a deep forest green (#004C45) for dark surfaces, a mid green (#039661) as the primary action colour, a lighter green (#87C979) for accents, with white and black for text and backgrounds.',
+          'I used those five values to build the entire LUCAD Airlines visual system. The logo combines an aviation mark with the airline name, designed to read clearly on both the dark green splash screen and white content pages.'
+        ],
+        images: [
+          {
+            src: '../assets/portfolio/LUCAD-airlines/Lesley University Colours.webp',
+            alt: 'Lesley University colour palette showing the five brand colours used in the project',
+            wide: true,
+            caption: 'The five colours the brief required: #004C45, #039661, #87C979, white, and black.'
+          },
+          {
+            src: '../assets/portfolio/LUCAD-airlines/LUCAD Airlines logo variations.webp',
+            alt: 'LUCAD Airlines logo variations designed within the university colour palette',
+            caption: 'Logo explorations using the brief colours.'
+          }
+        ]
+      },
+      {
+        heading: 'Screens and prototype flow.',
+        paragraphs: [
+          'Rather than spending time on paper sketches, I jumped straight into quick digital iterations in Figma. This let me test layout balance, component sizing, and colour contrast directly on mobile artboards in real time.',
+          'The brief asked for a complete booking journey. I designed six screens: a sign-in screen, a home screen with quick-access actions, a flight search results view, a booking form, a promotions browser, and a user profile page.',
+          'Each screen uses the green palette consistently: the dark green for the splash and action-heavy screens, mid green for primary buttons and highlights, light green for secondary touches, and white for readable content areas.'
+        ],
+        images: [
+          {
+            src: '../assets/portfolio/LUCAD-airlines/mobile prototype flow screenshot.webp',
+            alt: 'Figma prototype showing all six screens connected with interaction arrows',
+            wide: true,
+            caption: 'All six screens linked in Figma. The arrows show every tap path through the prototype.'
+          },
+          {
+            src: '../assets/portfolio/LUCAD-airlines/Homepage - search flights.webp',
+            alt: 'LUCAD Airlines home screen with book flight, check-in, promotions and flight status actions',
+            caption: 'Home: quick-access actions after sign in.'
+          },
+          {
+            src: '../assets/portfolio/LUCAD-airlines/Find flights - screen.webp',
+            alt: 'Flight search results showing destination cards for Victoria Falls and Cape Town',
+            caption: 'Search: destination results with image cards and pricing.'
+          },
+          {
+            src: '../assets/portfolio/LUCAD-airlines/Flight booking page - screen.webp',
+            alt: 'Flight booking form with from, to, date, traveller count, and class fields',
+            caption: 'Booking: a stepped form for route, date, passengers, and class.'
+          },
+          {
+            src: '../assets/portfolio/LUCAD-airlines/Search promotions - screen.webp',
+            alt: 'Promotions screen showing suggested deals for Victoria Falls and Cape Town',
+            caption: 'Promotions: curated deals surfaced from the home screen shortcut.'
+          },
+          {
+            src: '../assets/portfolio/LUCAD-airlines/Profile - screen.webp',
+            alt: 'Profile screen showing name, flight status and payment details options',
+            caption: 'Profile: account details, flight status, and payment settings.'
+          },
+          {
+            src: '../assets/portfolio/LUCAD-airlines/Log in or Sign up - screen.webp',
+            alt: 'Sign-in screen with username, password, sign in and sign up on a dark green background',
+            caption: 'Sign in: the entry point, set on the dark green brand colour.'
+          }
+        ]
+      }
+    ],
+    notPursued: {
+      heading: 'What I did not pursue',
+      paragraphs: [
+        'I skipped lengthy upfront paper sketches and wireframe docs. Because the brief was focused and the colour constraints were already set, jumping straight into rapid Figma iterations allowed me to test interactive feel and contrast much faster.',
+        'I also decided not to add ancillary travel features such as hotel booking or car rentals to keep the focus strictly on mastering the core flight search and booking journey.',
+        'I avoided introducing outside accent colours beyond the assigned university palette, keeping the design strictly anchored in the professor’s guidelines.'
+      ]
+    },
+    learnings: [
+      'Moving directly into rapid Figma iterations made it easy to test and refine component styles and screen hierarchy on real device frames.',
+      'Working within a strict 5-colour palette showed me how to establish visual hierarchy through scale, contrast, and spacing instead of adding extra colours.',
+      'Connecting all interactive flows in Figma made edge cases obvious early, such as how users return from promotions back into active flight search.',
+      'Coursework constraints prepared me for real brand systems where designers must work within defined visual standards.'
+    ],
+    conclusion: [
+      'LUCAD Airlines translates a university design assignment into a clean, functioning mobile flight booking prototype built through quick digital iterations. All user journeys are fully linked in Figma and follow Lesley University\'s brand colours.',
+      'This project was completed as solo coursework for Lesley University.'
+    ]
   }
 };
