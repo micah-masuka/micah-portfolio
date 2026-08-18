@@ -589,6 +589,10 @@ html.theme-dark .theme-toggle .icon-moon { display: none; }
   padding-block: var(--space-6);
 }
 
+.portfolio-page {
+  padding-block-start: var(--space-5);
+}
+
 .home-work {
   padding-block-start: 0;
 }
@@ -652,7 +656,7 @@ html.theme-dark .theme-toggle .icon-moon { display: none; }
 }
 
 .page-head {
-  margin-bottom: var(--space-5);
+  margin-bottom: var(--space-4);
   max-inline-size: var(--measure);
 }
 
@@ -672,7 +676,7 @@ html.theme-dark .theme-toggle .icon-moon { display: none; }
 }
 
 .portfolio-group + .portfolio-group {
-  margin-top: var(--space-6);
+  margin-top: calc(var(--space-5) + var(--space-3));
 }
 
 .portfolio-group-head {
@@ -1093,7 +1097,7 @@ html.theme-dark .theme-toggle .icon-moon { display: none; }
 }
 
 .case-hero {
-  padding-block: var(--space-6) var(--space-5);
+  padding-block: var(--space-5);
 }
 
 .case-section,
@@ -1157,8 +1161,17 @@ html.theme-dark .theme-toggle .icon-moon { display: none; }
   margin-top: var(--space-3);
 }
 
+.case-body .case-live-link {
+  margin: var(--space-3) 0 0;
+}
+
+.case-body .case-live-link .text-link {
+  margin-top: 0;
+}
+
 .case-hero .overview-grid {
-  margin-top: var(--space-5);
+  grid-column: 1 / -1;
+  margin-top: var(--space-3);
 }
 
 .overview-grid {

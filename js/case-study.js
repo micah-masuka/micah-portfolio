@@ -404,7 +404,7 @@
   function renderCase(study) {
     const tags = (study.tags || []).map((tag) => `<li>${encode(tag)}</li>`).join('');
     const live = study.live
-      ? `<p><a class="text-link" href="${encode(study.live.href)}" target="_blank" rel="noreferrer">${encode(study.live.label)} ↗</a></p>`
+      ? `<p class="case-live-link"><a class="text-link" href="${encode(study.live.href)}" target="_blank" rel="noreferrer">${encode(study.live.label)} ↗</a></p>`
       : '';
 
     return `
@@ -417,8 +417,8 @@
             <ul class="tag-list">${tags}</ul>
             ${renderTools(study)}
             ${live}
-            ${renderOverview(study)}
           </div>
+          ${renderOverview(study)}
         </header>
         ${renderBackground(study)}
         ${renderRole(study)}
