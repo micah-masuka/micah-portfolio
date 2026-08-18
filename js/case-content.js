@@ -649,7 +649,7 @@ window.MicahPortfolio.caseStudies = {
             caption: 'Instant feedback: correct answer, explanation, tap to continue.'
           },
           {
-            src: '../assets/portfolio/sanex/wrong answer.webp',
+            src: '../assets/portfolio/sanex/wrong-answer.webp',
             alt: 'Sanex quiz wrong-answer feedback screen showing learning gap advice',
             caption: 'Instant feedback: wrong answer explanation turned into a learning moment.'
           },
@@ -1356,13 +1356,13 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '../assets/portfolio/LUCAD-airlines/lesley-university-colours.webp',
+            src: '../assets/portfolio/lucad-airlines/lesley-university-colours.webp',
             alt: 'Lesley University colour palette showing the five brand colours used in the project',
             wide: true,
             caption: 'The five colours the brief required: #004C45, #039661, #87C979, white, and black.'
           },
           {
-            src: '../assets/portfolio/LUCAD-airlines/lucad-airlines-logo-variations.webp',
+            src: '../assets/portfolio/lucad-airlines/lucad-airlines-logo-variations.webp',
             alt: 'LUCAD Airlines logo variations designed within the university colour palette',
             caption: 'Logo explorations using the brief colours.'
           }
@@ -1377,38 +1377,38 @@ window.MicahPortfolio.caseStudies = {
         ],
         images: [
           {
-            src: '../assets/portfolio/LUCAD-airlines/mobile-prototype-flow-screenshot.webp',
+            src: '../assets/portfolio/lucad-airlines/mobile-prototype-flow-screenshot.webp',
             alt: 'Figma prototype showing all six screens connected with interaction arrows',
             wide: true,
             caption: 'All six screens linked in Figma. The arrows show every tap path through the prototype.'
           },
           {
-            src: '../assets/portfolio/LUCAD-airlines/homepage-search-flights.webp',
+            src: '../assets/portfolio/lucad-airlines/homepage-search-flights.webp',
             alt: 'LUCAD Airlines home screen with book flight, check-in, promotions and flight status actions',
             caption: 'Home: quick-access actions after sign in.'
           },
           {
-            src: '../assets/portfolio/LUCAD-airlines/find-flights-screen.webp',
+            src: '../assets/portfolio/lucad-airlines/find-flights-screen.webp',
             alt: 'Flight search results showing destination cards for Victoria Falls and Cape Town',
             caption: 'Search: destination results with image cards and pricing.'
           },
           {
-            src: '../assets/portfolio/LUCAD-airlines/flight-booking-page-screen.webp',
+            src: '../assets/portfolio/lucad-airlines/flight-booking-page-screen.webp',
             alt: 'Flight booking form with from, to, date, traveller count, and class fields',
             caption: 'Booking: a stepped form for route, date, passengers, and class.'
           },
           {
-            src: '../assets/portfolio/LUCAD-airlines/search-promotions-screen.webp',
+            src: '../assets/portfolio/lucad-airlines/search-promotions-screen.webp',
             alt: 'Promotions screen showing suggested deals for Victoria Falls and Cape Town',
             caption: 'Promotions: curated deals surfaced from the home screen shortcut.'
           },
           {
-            src: '../assets/portfolio/LUCAD-airlines/profile-screen.webp',
+            src: '../assets/portfolio/lucad-airlines/profile-screen.webp',
             alt: 'Profile screen showing name, flight status and payment details options',
             caption: 'Profile: account details, flight status, and payment settings.'
           },
           {
-            src: '../assets/portfolio/LUCAD-airlines/log-in-or-sign-up-screen.webp',
+            src: '../assets/portfolio/lucad-airlines/log-in-or-sign-up-screen.webp',
             alt: 'Sign-in screen with username, password, sign in and sign up on a dark green background',
             caption: 'Sign in: the entry point, set on the dark green brand colour.'
           }
